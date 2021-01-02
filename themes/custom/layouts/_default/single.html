@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div id="container">
+  <div id="article">
+    <h1 id="title">{{ .Title }}</h1>
+    {{ partial "meta.html" . }}
+  </div>
+  <div id="content">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}
