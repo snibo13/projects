@@ -46,6 +46,7 @@
     
     display: grid;
     grid-template-columns: 5vw 20vw auto 15vw 10vw;
+    overflow-x: hidden;
   }
 
   header {
