@@ -1,4 +1,4 @@
-baseURL = "https://snibo.me/projects/"
+baseURL = "https://snibo.me/projects"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "custom"
