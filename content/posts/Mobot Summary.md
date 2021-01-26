@@ -6,7 +6,7 @@ draft: false
 ---
 
 
-![Mobot](static/imgs/Mobot1.jpeg)
+![Mobot](../../imgs/Mobot1.jpeg)
 
 The third project we completed for my freshman introductory mechanical engineering course was a line following robot. Modelled after the Mobot races that are traditionally part of CMU's "Carnival" (https://www.cs.cmu.edu/mobot/).
 
