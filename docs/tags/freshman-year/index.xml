@@ -13,9 +13,8 @@
       <pubDate>Fri, 01 Jan 2021 21:18:31 -0600</pubDate>
       
       <guid>https://snibo.me/projects/posts/mobot-summary/</guid>
-      <description>![Mobot]({{ &amp;ldquo;/imgs/Mobot1.jpeg&amp;rdquo; | absURL }} )
-The third project we completed for my freshman introductory mechanical engineering course was a line following robot. Modelled after the Mobot races that are traditionally part of CMU&amp;rsquo;s &amp;ldquo;Carnival&amp;rdquo; (https://www.cs.cmu.edu/mobot/).
-The playlist below contains some of the tests while developing the controls for the bot. The objective was to complete the about 7 ft track autonomously and stop 15cm from the box at the end.</description>
+      <description>The third project we completed for my freshman introductory mechanical engineering course was a line following robot. Modelled after the Mobot races that are traditionally part of CMU&amp;rsquo;s &amp;ldquo;Carnival&amp;rdquo; (https://www.cs.cmu.edu/mobot/).
+The playlist below contains some of the tests while developing the controls for the bot. The objective was to complete the about 7 ft track autonomously and stop 15cm from the box at the end. We managed to do both, completing the task in the fastest recorded time of about 7 seconds.</description>
     </item>
     
     <item>
