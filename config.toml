@@ -3,3 +3,6 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "custom"
 publishDir = "docs"
+
+[permalinks]
+  posts = ":title"
