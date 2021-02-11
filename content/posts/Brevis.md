@@ -11,11 +11,11 @@ I spend a considerable amount of time on my computer, whether that is healthy or
 
 Ultimately the goal is to build a custom mechanical keyboard with a more ergonomic layout and maybe some custom keybinds. To that end I built a 7 key macropad with a rotary encoder.
 
-![Schematic](../BrevisSchematic.jpg) ![PCB in KiCad](../BrevisPCB.jpg)
+![Schematic](../imgs/BrevisSchematic.jpg) ![PCB in KiCad](../imgs/BrevisPCB.jpg)
 
 The first step in the process was understanding how mechanical keyboards work. Fundamentally, they are just matrices of switches where a row and column correspond to a specific key. The microcontroller, in my case an arduino pro micro, reads this in and sends the corresponding keycode to the computer. Alternatively, using a software suite called QMK you can program alternative actions besdes keypresses. 
 
-![PCB Back](../imgs/BrevisFront.jpg) ![PCB Back](../BrevisBack.jpg)
+![PCB Back](../imgs/BrevisFront.jpg) ![PCB Back](../imgs/BrevisBack.jpg)
 
 Armed with the operating principles of a keyboard, I designed Brevis V1.0 the circuit that formed the circuit board you see below. I sourced some Gateron Brown Switches, order the PCB and soldered it up. This is the final result.
 
