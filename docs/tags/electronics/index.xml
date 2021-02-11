@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electronics on My New Hugo Site</title>
+    <link>https://snibo.me/projects/tags/electronics/</link>
+    <description>Recent content in Electronics on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Feb 2021 22:46:34 -0500</lastBuildDate><atom:link href="https://snibo.me/projects/tags/electronics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brevis</title>
+      <link>https://snibo.me/projects/brevis/</link>
+      <pubDate>Wed, 10 Feb 2021 22:46:34 -0500</pubDate>
+      
+      <guid>https://snibo.me/projects/brevis/</guid>
+      <description>I spend a considerable amount of time on my computer, whether that is healthy or not is another issue but one thing that I&amp;rsquo;ve noticed is after working on writing or working on code my wrists will start to hurt. Combine this with a friend of mine getting Carpal Tunnel and the glory that is mechanical keyboards and you have me new interest in custom mechanical keyboards.
+Ultimately the goal is to build a custom mechanical keyboard with a more ergonomic layout and maybe some custom keybinds.</description>
+    </item>
+    
+  </channel>
+</rss>
