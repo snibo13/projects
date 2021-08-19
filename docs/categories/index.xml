@@ -5,6 +5,10 @@
     <link>https://snibo.me/projects/categories/</link>
     <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://snibo.me/projects/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://snibo.me/projects/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

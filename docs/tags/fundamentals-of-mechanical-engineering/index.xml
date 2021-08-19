@@ -6,7 +6,11 @@
     <description>Recent content in Fundamentals of Mechanical Engineering on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 21:18:31 -0600</lastBuildDate><atom:link href="https://snibo.me/projects/tags/fundamentals-of-mechanical-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 21:18:31 -0600</lastBuildDate>
+    
+	<atom:link href="https://snibo.me/projects/tags/fundamentals-of-mechanical-engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Mobot Summary</title>
       <link>https://snibo.me/projects/mobot-summary/</link>

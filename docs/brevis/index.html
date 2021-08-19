@@ -3,6 +3,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+  
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -11,46 +16,44 @@
   
 </head>
 <body>
-  <a href="/index.html" id="logo"> <h2> Sidney Nimako</h2></a>
-    <span id="links">
-        <a href="/projects.html"> <p> Projects </p></a>
-        <a href="/graveyard.html"> <p>The Pit</p></a>
-        <a href="/elysium.html"><p>Elysium </p></a>
-        <a href="/misc.html"><p>Misc</p></a>
-    </span>
-<div id="content">
+        
+        <div id="content">
 <div id="container">
   <div id="article">
     <h1 id="title">Brevis</h1>
-    
+    <h2 id = "summary">  A 7-Key macropad with rotary encoder designed from scratch</h2>
+<br>
+
 
 
 <time datetime="2021-02-10">Feb 10, 2021</time>
 <br>
-<br>
-
-
-
-<a class="tag" href="https://snibo.me/projects/tags/sophomore-year">Sophomore Year</a>
-
-
-<a class="tag" href="https://snibo.me/projects/tags/mechanical-keyboards">Mechanical Keyboards</a>
-
-
-<a class="tag" href="https://snibo.me/projects/tags/electronics">Electronics</a>
-
 
   </div>
   <div id="content">
-    <p><img src="../imgs/BrevisFull.jpg" alt="Finished Macro Keyboard"></p>
+    <p>
+  <figure>
+    <img src="../imgs/BrevisFull.jpg" alt="Finished Macro Keyboard">
+    <figcaption style="text-align: center;">The Finished Macro Board</figcaption>
+  </figure>
+</p>
 <p>I spend a considerable amount of time on my computer, whether that is healthy or not is another issue but one thing that I&rsquo;ve noticed is after working on writing or working on code my wrists will start to hurt. Combine this with a friend of mine getting Carpal Tunnel and the glory that is mechanical keyboards and you have me new interest in custom mechanical keyboards.</p>
-<p>Ultimately the goal is to build a custom mechanical keyboard with a more ergonomic layout and maybe some custom keybinds. To that end I built a 7 key macropad with a rotary encoder.</p>
-<p><img src="../imgs/BrevisSchematic.jpg" alt="Schematic"> <img src="../imgs/BrevisPCB.jpg" alt="PCB in KiCad"></p>
-<p>The first step in the process was understanding how mechanical keyboards work. Fundamentally, they are just matrices of switches where a row and column correspond to a specific key. The microcontroller, in my case an arduino pro micro, reads this in and sends the corresponding keycode to the computer. Alternatively, using a software suite called QMK you can program alternative actions besdes keypresses.</p>
-<p><img src="../imgs/BrevisFront.jpg" alt="PCB Back"> <img src="../imgs/BrevisBack.jpg" alt="PCB Back"></p>
-<p>Armed with the operating principles of a keyboard, I designed Brevis V1.0 the circuit that formed the circuit board you see below. I sourced some Gateron Brown Switches, order the PCB and soldered it up. This is the final result.</p>
-<p><img src="../imgs/Brevis2.jpg" alt="Brevis Complete">
-<img src="../imgs/BrevisEncoder.jpg" alt="Rotary Encoder"></p>
+<p>Ultimately the goal is to build a custom mechanical keyboard with a more ergonomic layout and maybe some custom keybinds. To that end I built a 7 key macropad with a rotary encoder to get some experience with circuit dsign and the specifics of keyboard design.</p>
+<p>
+  <figure>
+    <img src="../imgs/BrevisPCB.jpg" alt="PCB in KiCad">
+    <figcaption style="text-align: center;">PCB designed in KiCad</figcaption>
+  </figure>
+</p>
+<p>The first step in the process was understanding how mechanical keyboards work. Fundamentally, they are just matrices of switches where a row and column correspond to a specific key. The microcontroller, in my case an Arduino pro micro, sends columns high and reads in the rows sequentially. It then translates these readings to keycodes and sends them to the computer. The software I used to program the computer, called QMK, also allowed a single switch to map to multiple keypresses or other actions.</p>
+<p>
+  <figure>
+    <img src="../imgs/BrevisFront.jpg" alt="PCB Front">
+    <figcaption style="text-align: center;">Manufactured PCB</figcaption>
+  </figure>
+</p>
+<p>Armed with the operating principles of a keyboard, I designed Brevis V1.0 the circuit that formed the circuit board you see below. I sourced some Gateron Brown Switches, order the PCB and soldered it up. There was one small problem, the right most column of the keypad would not worked. I double and triple checked the schematic and it all seemed like it should be connected. I hooked up a multimeter and the keys in the column were reading the same voltage as all the other keys. Thanks to some research and a helpful Redittor I found the culprit. The schematic as originally designed had the last column pass through two diodes in series. While my electrical engineering lectures did cover voltage drops across resistors, I had never considered that diodes would have a similar drop, the second column was fine because the drop across the diode was not large enough for the arduino to read the value as low. I refactored the design so that the keys each only passed through one diode and it works like a charm now.</p>
+<!-- raw HTML omitted -->
 
   </div>
 </div>
