@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.68.3" /><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/index.css ">
+  
+</head>
+<style>
+        a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#links>a {
+  padding: 0vh 1vw;
+  
+}
+
+:root {
+  --dark-orange: #fb8b24ff;
+  --queen-blue: #577590ff;
+  --cmu-red: #c51230ff;
+  --green-munsell: #04a777ff;
+  --midnight-green-eagle-green: #225560ff;
+  --oxford-blue: #011638;
+  --space-cadet: #2E294E;
+  --cadet-blue: #58A4B0;
+  --steel-teal: #607B7D;
+  --sweet-brown: #A63D40;
+}
+ 
+
+html {
+overflow-x: hidden;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+  display:grid; 
+  grid-template-columns: 25vw 20vw 5vw 25vw 20vw;
+}
+
+#links > a
+{
+position: relative;
+display: inline-block;
+text-decoration: none;
+text-align: center;
+transition: 0.5s;
+
+}
+#links > a::before {
+position: absolute;
+content: "";
+
+ 
+width: 80%;
+height: 3px;
+ 
+top: 100%;
+background: #ff7000;
+transition: transform 0.5s;
+transform: scaleX(0);
+transform-origin: right;
+}
+#links > a:hover {
+ 
+}
+#links > a:hover::before {
+transform: scaleX(1);
+transform-origin: left;
+}
+
+#content {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  padding-top: 10vh;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 8vh;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width:20vw;
+  padding-left: 1vw;
+  position: sticky;
+  color: var(--sweet-brown);
+}
+
+time {
+  position: relative;
+  top: -0.5vh;
+  font-size: 2vh;
+}
+
+p {
+  font-size: 2vh;
+  margin: 4vh;
+}
+
+#sticky {
+    position: sticky;
+    top: 0px;
+    height: 20vh;
+}
+
+.post-title, .time {
+    display: inline-block;
+}
+    </style>
+</head>
+<body>
+    <div id="sticky">
+        <h1 id="title">Projects and Ideas</h1>
+    </div>
+    
+    <div id="content">
+        
+        
+        <a href="https://snibo.me/projects/brevis/" >
+            <span>
+                <h1 class="post-title"> Brevis &nbsp;  &#8226; &nbsp;</h1>
+                
+                
+                <time class="time" datetime="2021-02-10">Feb 10, 2021</time>
+                
+            </span>
+        </a>
+        <p class="post-summary"> A 7-Key macropad with rotary encoder designed from scratch</p>
+        
+        <a href="https://snibo.me/projects/mobot-summary/" >
+            <span>
+                <h1 class="post-title"> Mobot Summary &nbsp;  &#8226; &nbsp;</h1>
+                
+                
+                <time class="time" datetime="2021-01-01">Jan 1, 2021</time>
+                
+            </span>
+        </a>
+        <p class="post-summary"> Two-wheeled line following Arduino robot created for Fundamentals of Engineering</p>
+        
+        
+    </div>    
+</body>
+</html>
+
+

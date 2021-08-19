@@ -2,7 +2,8 @@
 title: "Brevis"
 date: 2021-02-10T22:46:34-05:00
 # tags: ["Sophomore Year", "Mechanical Keyboards", "Electronics"]
-summary: " A 7-Key macropad with rotary encoder designed from scratch"
+summary: "A 7-Key macropad with rotary encoder designed from scratch"
+list: true
 draft: false
 ---
 
