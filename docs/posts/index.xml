@@ -6,10 +6,19 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Feb 2021 22:46:34 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 31 Aug 2021 18:48:02 -0400</lastBuildDate>
     
 	<atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Facebook AI Resarch Internship</title>
+      <link>https://snibo.me/projects/facebook-ai-resarch-internship/</link>
+      <pubDate>Tue, 31 Aug 2021 18:48:02 -0400</pubDate>
+      
+      <guid>https://snibo.me/projects/facebook-ai-resarch-internship/</guid>
+      <description>My work during the 2021 summer with Facebook AI Research and Carnegie Mellon&amp;rsquo;s Robotics Institute</description>
+    </item>
     
     <item>
       <title>Brevis</title>
