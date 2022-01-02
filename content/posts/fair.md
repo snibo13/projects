@@ -1,5 +1,5 @@
 ---
-title: "Facebook AI Resarch Internship"
+title: "Facebook AI Research Internship"
 date: 2021-08-31T18:48:02-04:00
 summary: "My work during the 2021 summer with Facebook AI Research and Carnegie Mellon's Robotics Institute"
 list: true
