@@ -6,11 +6,7 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Aug 2021 18:48:02 -0400</lastBuildDate>
-    
-	<atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 31 Aug 2021 18:48:02 -0400</lastBuildDate><atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Facebook AI Research Internship</title>
       <link>https://snibo.me/projects/facebook-ai-research-internship/</link>
@@ -46,6 +42,24 @@ Testing</description>
       
       <guid>https://snibo.me/projects/mobot-summary/</guid>
       <description>Two-wheeled line following Arduino robot created for Fundamentals of Engineering</description>
+    </item>
+    
+    <item>
+      <title>Context-Aware Object Recognition</title>
+      <link>https://snibo.me/projects/context-aware-object-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snibo.me/projects/context-aware-object-recognition/</guid>
+      <description>Using other objects in scene to discern location and adjust confidence</description>
+    </item>
+    
+    <item>
+      <title>Wheelchair Conversion Kit</title>
+      <link>https://snibo.me/projects/wheelchair-conversion-kit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snibo.me/projects/wheelchair-conversion-kit/</guid>
+      <description>Attachment to convert a traditional wheelchair to a motorized one</description>
     </item>
     
   </channel>

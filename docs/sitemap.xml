@@ -1,43 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://snibo.me/projects/facebook-ai-research-internship/</loc>
     <lastmod>2021-08-31T18:48:02-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://snibo.me/projects/</loc>
     <lastmod>2021-08-31T18:48:02-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://snibo.me/projects/posts/</loc>
     <lastmod>2021-08-31T18:48:02-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://snibo.me/projects/brevis/</loc>
     <lastmod>2021-02-10T22:46:34-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://snibo.me/projects/test/</loc>
     <lastmod>2021-01-02T12:12:34-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://snibo.me/projects/mobot-summary/</loc>
     <lastmod>2021-01-01T21:18:31-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://snibo.me/projects/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://snibo.me/projects/context-aware-object-recognition/</loc>
+  </url><url>
     <loc>https://snibo.me/projects/tags/</loc>
+  </url><url>
+    <loc>https://snibo.me/projects/wheelchair-conversion-kit/</loc>
   </url>
-  
 </urlset>
