@@ -14,7 +14,7 @@ I spent the 2021 summer working with Tess Hellebrekers and Vikash Kumar on Faceb
 
 ## Documentation
 
-My first task was the creation of documentation for the existing hand. I was given a CAD model and some photos of the assembled hand, as well as the assorted motors and electronics necessary for it to work and set loose to assemble one of my own. The advantage here was htat I had zero bias on how the hand should be assembled and I noted a few locations of redundancy in my assembly process as well as some other elements that were optimizeable with regard to assembly. 
+My first task was the creation of documentation for the existing hand. I was given a CAD model and some photos of the assembled hand, as well as the assorted motors and electronics necessary for it to work and set loose to assemble one of my own. The advantage here was that I had zero bias on how the hand should be assembled and I noted a few locations of redundancy in my assembly process as well as some other elements that were optimizeable with regard to assembly. 
 
 While creating an assembly guide for the existing hand design, I noted and implemented whatever small changes might be useful - think widening mounting points and changing screw sizes to simplify the assembly. I also kept a record of points of frustration that could be improved upon in further hand design iterations.
 
@@ -52,4 +52,4 @@ Ultimately, the redesigned hand increased the electronics bay by 2%, reduced the
 
 
 ## Takeaways
-The experience I had with D'Manus was definitely an enjoyable one. The people I worked with were very elpful and made the objectives and rationales very clear. They were always willing to provide feedback and gave ample oppourtunities for me to learn. The work was also very interesting in that it allowed me to interact with several different disciplines. I was responsible for the mechanical design of the rig, but also the software that ran the tests, collected and analyzed the data. I got experience with low level programming of for sensor interaction and pulling that data up to a higher level to allow for simpler analysis.
+The experience I had with D'Manus was definitely an enjoyable one. The people I worked with were very helpful and made the objectives and rationales very clear. They were always willing to provide feedback and gave ample oppourtunities for me to learn. The work was also very interesting in that it allowed me to interact with several different disciplines. I was responsible for the mechanical design of the rig, but also the software that ran the tests, collected and analyzed the data. I got experience with low level programming for sensor interaction and pulling that data up to a higher level to allow for simpler analysis.
