@@ -96,3 +96,20 @@ figcaption {
   line-height: 4vh;
   font-size: 3vh;
 }
+
+
+#bar {
+  height: 10vh;
+  margin: 0;
+  /* padding-top: 5vh; */
+}
+
+#right {
+  position: absolute;
+  right: 5vw;
+  top: 4vh;
+}
+
+#right>img {
+  width: 3vw;
+}
