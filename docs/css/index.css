@@ -14,12 +14,6 @@ a {
   color: inherit;
 }
 
-#links>a {
-  padding: 0vh 1vw;
-
-}
-
-
 
 html {
   overflow-x: hidden;
@@ -38,6 +32,7 @@ body {
 #content {
   grid-column-start: 2;
   grid-column-end: 5;
+  font-family: 'Inconsolata', monospace;
 }
 
 #left {
@@ -99,4 +94,5 @@ figcaption {
 
 #summary {
   line-height: 4vh;
+  font-size: 3vh;
 }
