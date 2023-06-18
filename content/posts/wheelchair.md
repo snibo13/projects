@@ -2,7 +2,8 @@
 title: "Wheelchair Conversion Kit"
 draft: false
 list: true
-summary: "Attachment to convert a traditional wheelchair to a motorized one"
+date: 2022-08-15T22:46:34-05:00
+summary: "Designing an attachment to convert a traditional wheelchair to a motorized one"
 ---
 
 # Problem:

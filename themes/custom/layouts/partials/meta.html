@@ -1,4 +1,4 @@
-<h2 id = "summary"> {{ .Params.summary }}</h2>
+<p id="summary"> {{ .Params.summary }}</p>
 {{ with .Params.tags }}
 {{ range . }}
 {{ $href := print (absURL "tags/") (urlize .) }}

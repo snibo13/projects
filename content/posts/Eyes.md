@@ -1,7 +1,7 @@
 ---
 title: "Eye-Lid Software"
 summary: "Software to track the position of an individuals eyelids"
-list: true
+list: false
 draft: true
 ---
 

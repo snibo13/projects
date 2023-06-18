@@ -1,88 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-	<meta name="generator" content="Hugo 0.108.0">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
-        
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/index.css ">
-        
-      </head>
+<head>
+	<meta name="generator" content="Hugo 0.113.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css ">
+    <style>
+        .blog-post-card {
+            padding: 10px 20px;
+            margin: 10px 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 3px 3px 8px rgb(238, 238, 238), 3px 3px 8px rgb(238, 238, 238);
+        }
+
+        #first-post {
+            margin: 10vh 0vh;
+             
+        }
+    </style>
+
+</head>
+
 <body>
-    <div id="sticky">
-        <h1 id="title">Projects and Ideas</h1>
+    <div id="posts-list">
+        
+        <a href="https://snibo.me/projects/context-aware-object-recognition/" id="first-post">
+            
+            <h2> Context-Aware Object Recognition</h2>
+
+            
+            <p> Using other objects in scene to discern location and adjust confidence</p>
+            
+            
+            <h4>Aug 15, 2022</h4>
+        </a>
+        
+        
+        <a href="https://snibo.me/projects/wheelchair-conversion-kit/" class="blog-post-card">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                <h2> Wheelchair Conversion Kit</h2>
+                
+                
+                <h4>Aug 15, 2022</h4>
+            </div>
+            <p> Designing an attachment to convert a traditional wheelchair to a motorized one</p>
+        </a>
+
+        
+        <a href="https://snibo.me/projects/facebook-ai-research-internship/" class="blog-post-card">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                <h2> Facebook AI Research Internship</h2>
+                
+                
+                <h4>Aug 31, 2021</h4>
+            </div>
+            <p> My work during the 2021 summer with Facebook AI Research and Carnegie Mellon&#39;s Robotics Institute</p>
+        </a>
+
+        
+        <a href="https://snibo.me/projects/mobot-summary/" class="blog-post-card">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                <h2> Mobot Summary</h2>
+                
+                
+                <h4>Aug 1, 2021</h4>
+            </div>
+            <p> Two-wheeled line following Arduino robot created for Fundamentals of Engineering</p>
+        </a>
+
+        
+        <a href="https://snibo.me/projects/brevis/" class="blog-post-card">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                <h2> Brevis</h2>
+                
+                
+                <h4>Feb 10, 2021</h4>
+            </div>
+            <p> A 7-Key macropad with rotary encoder designed from scratch</p>
+        </a>
+
+        
+
     </div>
-    
-    <div id="content">
-        
-        
-        <a href="https://snibo.me/projects/facebook-ai-research-internship/" >
-            <span>
-                <h1 class="post-title"> Facebook AI Research Internship</h1>
-                
-                
-            </span>
-        </a>
-        <p class="post-summary"> My work during the 2021 summer with Facebook AI Research and Carnegie Mellon&#39;s Robotics Institute</p>
-        
-        <a href="https://snibo.me/projects/brevis/" >
-            <span>
-                <h1 class="post-title"> Brevis</h1>
-                
-                
-            </span>
-        </a>
-        <p class="post-summary"> A 7-Key macropad with rotary encoder designed from scratch</p>
-        
-        <a href="https://snibo.me/projects/mobot-summary/" >
-            <span>
-                <h1 class="post-title"> Mobot Summary</h1>
-                
-                
-            </span>
-        </a>
-        <p class="post-summary"> Two-wheeled line following Arduino robot created for Fundamentals of Engineering</p>
-        
-        <a href="https://snibo.me/projects/context-aware-object-recognition/" >
-            <span>
-                <h1 class="post-title"> Context-Aware Object Recognition</h1>
-                
-                
-            </span>
-        </a>
-        <p class="post-summary"> Using other objects in scene to discern location and adjust confidence</p>
-        
-        <a href="https://snibo.me/projects/eye-lid-software/" >
-            <span>
-                <h1 class="post-title"> Eye-Lid Software</h1>
-                
-                
-            </span>
-        </a>
-        <p class="post-summary"> Software to track the position of an individuals eyelids</p>
-        
-        <a href="https://snibo.me/projects/wheelchair-conversion-kit/" >
-            <span>
-                <h1 class="post-title"> Wheelchair Conversion Kit</h1>
-                
-                
-            </span>
-        </a>
-        <p class="post-summary"> Attachment to convert a traditional wheelchair to a motorized one</p>
-        
-        
-    </div>    
 </body>
+
 </html>
-
-

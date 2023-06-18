@@ -1,6 +1,6 @@
 ---
 title: "Mobot Summary"
-date: 2021-01-01T21:18:31-06:00
+date: 2021-08-01T21:18:31-06:00
 # tags: ["Freshman Year", "Fundamentals of Mechanical Engineering"]
 draft: false
 list: true

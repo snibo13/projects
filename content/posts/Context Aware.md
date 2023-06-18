@@ -1,6 +1,7 @@
 ---
 title: "Context-Aware Object Recognition"
 draft: false
+date: 2022-08-15T22:46:34-05:00
 list: true
 summary: "Using other objects in scene to discern location and adjust confidence"
 ---

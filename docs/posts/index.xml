@@ -6,7 +6,25 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Aug 2021 18:48:02 -0400</lastBuildDate><atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Aug 2022 22:46:34 -0500</lastBuildDate><atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context-Aware Object Recognition</title>
+      <link>https://snibo.me/projects/context-aware-object-recognition/</link>
+      <pubDate>Mon, 15 Aug 2022 22:46:34 -0500</pubDate>
+      
+      <guid>https://snibo.me/projects/context-aware-object-recognition/</guid>
+      <description>Using other objects in scene to discern location and adjust confidence</description>
+    </item>
+    
+    <item>
+      <title>Wheelchair Conversion Kit</title>
+      <link>https://snibo.me/projects/wheelchair-conversion-kit/</link>
+      <pubDate>Mon, 15 Aug 2022 22:46:34 -0500</pubDate>
+      
+      <guid>https://snibo.me/projects/wheelchair-conversion-kit/</guid>
+      <description>Designing an attachment to convert a traditional wheelchair to a motorized one</description>
+    </item>
+    
     <item>
       <title>Facebook AI Research Internship</title>
       <link>https://snibo.me/projects/facebook-ai-research-internship/</link>
@@ -17,58 +35,21 @@
     </item>
     
     <item>
-      <title>Brevis</title>
-      <link>https://snibo.me/projects/brevis/</link>
-      <pubDate>Wed, 10 Feb 2021 22:46:34 -0500</pubDate>
-      
-      <guid>https://snibo.me/projects/brevis/</guid>
-      <description>A 7-Key macropad with rotary encoder designed from scratch</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://snibo.me/projects/test/</link>
-      <pubDate>Sat, 02 Jan 2021 12:12:34 -0600</pubDate>
-      
-      <guid>https://snibo.me/projects/test/</guid>
-      <description>Testing Testing
-Testing</description>
-    </item>
-    
-    <item>
       <title>Mobot Summary</title>
       <link>https://snibo.me/projects/mobot-summary/</link>
-      <pubDate>Fri, 01 Jan 2021 21:18:31 -0600</pubDate>
+      <pubDate>Sun, 01 Aug 2021 21:18:31 -0600</pubDate>
       
       <guid>https://snibo.me/projects/mobot-summary/</guid>
       <description>Two-wheeled line following Arduino robot created for Fundamentals of Engineering</description>
     </item>
     
     <item>
-      <title>Context-Aware Object Recognition</title>
-      <link>https://snibo.me/projects/context-aware-object-recognition/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Brevis</title>
+      <link>https://snibo.me/projects/brevis/</link>
+      <pubDate>Wed, 10 Feb 2021 22:46:34 -0500</pubDate>
       
-      <guid>https://snibo.me/projects/context-aware-object-recognition/</guid>
-      <description>Using other objects in scene to discern location and adjust confidence</description>
-    </item>
-    
-    <item>
-      <title>Eye-Lid Software</title>
-      <link>https://snibo.me/projects/eye-lid-software/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://snibo.me/projects/eye-lid-software/</guid>
-      <description>Software to track the position of an individuals eyelids</description>
-    </item>
-    
-    <item>
-      <title>Wheelchair Conversion Kit</title>
-      <link>https://snibo.me/projects/wheelchair-conversion-kit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://snibo.me/projects/wheelchair-conversion-kit/</guid>
-      <description>Attachment to convert a traditional wheelchair to a motorized one</description>
+      <guid>https://snibo.me/projects/brevis/</guid>
+      <description>A 7-Key macropad with rotary encoder designed from scratch</description>
     </item>
     
   </channel>

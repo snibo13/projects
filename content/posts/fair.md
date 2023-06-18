@@ -45,9 +45,8 @@ Starting from the four necessitated motor mount points I scaled up the palm, kee
 Ultimately, the redesigned hand increased the electronics bay by 2%, reduced the overall footprint by 20%, reduced total volume by 14% and increased the ease of wiring, by partitioning sensing and actuating electronics and including wiring channels. I also made sure not to sacrifice aesthestis too much in optimizing for other factors to ensure that the hand was still reminiscent of a hand.
 
 {{< raw >}}
-<img src="../imgs/OriginalHand.png" alt="Original Hand" class="sbs" >
-<img src="../imgs/RedesignedHand.png" alt="Redesigned Hand" class="sbs">
-<figcaption style="text-align: center;">Original Hand (left) and Redesigned Hand (right) </figcaption>
+<img src="../imgs/RedesignedHand.png" alt="Redesigned Hand">
+<figcaption style="text-align: center;">CAD model of redesigned hand </figcaption>
 {{< /raw >}}
 
 

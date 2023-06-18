@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:ital,wght@0,400;0,500;1,400&family=Quicksand&display=swap');
+
 :root {
   --dark-white: #efedec;
   --linen: #ede8e6;
@@ -7,6 +9,11 @@
   --shamrock: #66A182;
   --madder: #C3423F;
   --greh: #a5a5a7;
+
+  --bg-1: #f2f6f7;
+  --bg-2: #F0EFF4;
+  --accent-blue: #12263A;
+  --accent-grey: #6B818C;
 }
 
 a {
@@ -17,7 +24,7 @@ a {
 
 html {
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
 
 }
 
@@ -25,14 +32,28 @@ body {
   margin: 0;
   border: 0;
   display: grid;
-  grid-template-columns: 20vw 25vw 5vw 25vw 20vw;
-  background-color: var(--linen);
+  grid-template-columns: auto 45vw auto;
+  background-color: var(--bg-1);
+}
+
+#posts-list {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-family: 'Noto Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 #content {
   grid-column-start: 2;
-  grid-column-end: 5;
-  font-family: 'Inconsolata', monospace;
+  grid-column-end: 3;
+  font-family: 'Noto Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 #left {
@@ -82,19 +103,24 @@ time {
 }
 
 p {
-  font-size: 2vh;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
 }
 
 figcaption {
   margin-top: 0.5vh;
   /* font-weight: bold; */
-  font-size: 2.5vh;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
 }
 
 #summary {
   line-height: 4vh;
-  font-size: 3vh;
+  font-size: 18px;
 }
 
 
@@ -112,4 +138,12 @@ figcaption {
 
 #right>img {
   width: 3vw;
+}
+
+.blog-post-card {
+  padding: 10px 20px;
+  margin: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgb(238, 238, 238), 3px 3px 8px rgb(238, 238, 238);
 }

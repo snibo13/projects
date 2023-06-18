@@ -1,44 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
-        
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/index.css ">
-        
-      </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css ">
+    <style>
+        .blog-post-card {
+            padding: 10px 20px;
+            margin: 10px 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 3px 3px 8px rgb(238, 238, 238), 3px 3px 8px rgb(238, 238, 238);
+        }
+
+        #first-post {
+            margin: 10vh 0vh;
+            /* height: 20vh; */
+        }
+    </style>
+
+</head>
+
 <body>
-    <div id="sticky">
-        <h1 id="title">Projects and Ideas</h1>
-    </div>
-    
-    <div id="content">
-        
-        {{ range where .Site.Pages "Params.list" true}}
-        <a href="{{.Permalink}}" >
-            <span>
-                <h1 class="post-title"> {{ .Params.title }}</h1>
-                <!-- {{ $dateTime := .PublishDate.Format "2006-01-02" }}
-                {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-                <time class="time" datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> -->
-                
-            </span>
+    <div id="posts-list">
+        {{range first 1 (where .Site.Pages "Params.list" true)}}
+        <a href="{{.Permalink}}" id="first-post">
+            <!-- <div style="display: flex; flex-direction: row; justify-content: space-between;"> -->
+            <h2> {{.Params.title }}</h2>
+
+            <!-- </div> -->
+            <p> {{ .Params.summary }}</p>
+            {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+            {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+            <h4>{{ .PublishDate.Format $dateFormat }}</h4>
         </a>
-        <p class="post-summary"> {{ .Params.summary }}</p>
+        {{end}}
+        {{ range after 1 (where .Site.Pages "Params.list" true)}}
+        <a href="{{.Permalink}}" class="blog-post-card">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                <h2> {{.Params.title }}</h2>
+                {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+                {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+                <h4>{{ .PublishDate.Format $dateFormat }}</h4>
+            </div>
+            <p> {{ .Params.summary }}</p>
+        </a>
+
         {{ end }}
-        
-    </div>    
+
+    </div>
 </body>
+
 </html>
-
-
