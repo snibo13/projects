@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://snibo.me/projects/context-aware-object-recognition/</loc>
-    <lastmod>2022-08-15T22:46:34-05:00</lastmod>
+    <loc>https://snibo.me/projects/back-to-the-keyboard/</loc>
+    <lastmod>2023-06-18T09:42:35-07:00</lastmod>
   </url><url>
     <loc>https://snibo.me/projects/</loc>
-    <lastmod>2022-08-15T22:46:34-05:00</lastmod>
+    <lastmod>2023-06-18T09:42:35-07:00</lastmod>
   </url><url>
     <loc>https://snibo.me/projects/posts/</loc>
+    <lastmod>2023-06-18T09:42:35-07:00</lastmod>
+  </url><url>
+    <loc>https://snibo.me/projects/context-aware-object-recognition/</loc>
     <lastmod>2022-08-15T22:46:34-05:00</lastmod>
   </url><url>
     <loc>https://snibo.me/projects/wheelchair-conversion-kit/</loc>

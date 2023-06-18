@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="icon" href="../imgs/Logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Josefin+Sans:wght@700&family=Noto+Sans:ital,wght@0,800;1,800&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Josefin+Sans:wght@700&family=Noto+Sans:ital,wght@0,800;1,800&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/index.css ">
+
+</head><body><header id="bar">
+  <div id="right">
+    <img src="../imgs/Logo.png">
+  </div>
+</header><div id="content">
+<div id="container">
+  <div id="article">
+    <h1 id="title">Back to the keyboard!</h1>
+    <p id="summary"> </p>
+
+  </div>
+  <div id="content">
+    <p>Back in 2021 I made a seven key <a href="../brevis/">macropad</a> with an encoder knob using QMK. The original goal with that project was to serve as a trial case for building a fullsized (or at least 65%) keyboard. Two years later, I&rsquo;m finally getting around to it. I took so long because I was</p>
+<p>The design I&rsquo;m going with is largely inspired by a collection of tweets by <a href="https://twitter.com/claudioguglieri">Claudio Guglieri</a>.</p>
+<p>Here are a couple:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">More keyboard renders with touch display and led keycaps. <a href="https://t.co/lJBygeG31V">pic.twitter.com/lJBygeG31V</a></p>&mdash; Claudio Guglieri (@claudioguglieri) <a href="https://twitter.com/claudioguglieri/status/1663824909087440896?ref_src=twsrc%5Etfw">May 31, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Scroll scroll scroll 🔁 <a href="https://t.co/m7Ccu8LLiT">pic.twitter.com/m7Ccu8LLiT</a></p>&mdash; Claudio Guglieri (@claudioguglieri) <a href="https://twitter.com/claudioguglieri/status/1660903186482495489?ref_src=twsrc%5Etfw">May 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+It&rsquo;s more or less a rethinking of the old touchbar but I think the design is really nice and I&rsquo;m largely doing it as an excercise. I don&rsquo;t think the inclusion of the screen will be a game changer for my productivity or anything but it looks cool and adds some complexity to the project.</p>
+<p>I&rsquo;m also toying with the idea of adding a IR array for gesture detection off the side but that&rsquo;s still uncertain.</p>
+<p>One other source of inspiration is the <a href="https://github.com/peng-zhihui/HelloWord-Keyboard">HelloWord keyboard</a> by Peng Zhihui. Rather than using the traditional matrix scanning for reading key states he uses a collection of shift registers. This means infinite-key rollover and a sampling time as fast as you can flip a clock signal. With my typing speed of 101 words per minute I definitely need a sampling rate in the Megahertz.</p>
+<p>This is what I&rsquo;m currently prototyping with:</p>
+<ul>
+<li>Raspberry Pi Pico (I&rsquo;m considering switching to the Pico W so I can play around with some WiFi stuff or add bluetooth support)</li>
+<li>SN74HC165N: This is an 8 parallel input serial output shift register</li>
+<li>TFT display with ST7735R driver</li>
+</ul>
+<p>The biggest unknown right now is the display. It&rsquo;s proving difficult to find a touch screen display with the aspect ratio that I&rsquo;m looking for but I&rsquo;m still on the hunt. Right now I&rsquo;m working on some firmware to read the inputs from the shift register and an LVGL driver for the st7735r. I opted to go for the Pi Pico SDK rather than using Arduino so I could get a better understanding of embedded system development. You can expect a post about that at some point to.</p>
+<p>That&rsquo;s all for now. Cheers.</p>
+
+  </div>
+</div>
+
+    </div>
+
+
+</body>
+
+</html>

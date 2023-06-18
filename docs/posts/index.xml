@@ -6,7 +6,18 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Aug 2022 22:46:34 -0500</lastBuildDate><atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jun 2023 09:42:35 -0700</lastBuildDate><atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back to the keyboard!</title>
+      <link>https://snibo.me/projects/back-to-the-keyboard/</link>
+      <pubDate>Sun, 18 Jun 2023 09:42:35 -0700</pubDate>
+      
+      <guid>https://snibo.me/projects/back-to-the-keyboard/</guid>
+      <description>Back in 2021 I made a seven key macropad with an encoder knob using QMK. The original goal with that project was to serve as a trial case for building a fullsized (or at least 65%) keyboard. Two years later, I&amp;rsquo;m finally getting around to it. I took so long because I was
+The design I&amp;rsquo;m going with is largely inspired by a collection of tweets by Claudio Guglieri.
+Here are a couple: More keyboard renders with touch display and led keycaps.</description>
+    </item>
+    
     <item>
       <title>Context-Aware Object Recognition</title>
       <link>https://snibo.me/projects/context-aware-object-recognition/</link>
