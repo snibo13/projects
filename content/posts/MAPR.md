@@ -63,7 +63,7 @@ The last package was an RQT-based GUI to control the robot's state and set targe
 
 Poorly. Unfortunately, with time constraints we never managed to resolve a pretty significant issue. Our Lidar was prone to drift which meant our localisation broke down and the robot could not find its way to any destination.  Its recovery behaviour also exacerbated the issue and pushed the map fully out of alignment. The time we lost on motor controller implementation and the encoder debugging ended up preventing us from seeing these issues earlier.
 
-![MAPR](..\imgs\MAPR Iso.jpg)
+![MAPR](../imgs/MAPRIso.jpg)
 
 # Ad Futurum
 
