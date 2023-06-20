@@ -5,6 +5,7 @@ summary: "My work during the 2021 summer with Facebook AI Research and Carnegie 
 list: true
 draft: false
 ---
+Update: The paper has been released! You can check out more info on the design and testing of the hand [Here](https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus)
 
 ![Hand Model](../imgs/D'Manus.jpg "Model of the Original Hand")
 

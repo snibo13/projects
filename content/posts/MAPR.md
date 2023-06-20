@@ -65,7 +65,7 @@ Poorly. Unfortunately, with time constraints we never managed to resolve a prett
 
 ![MAPR](../imgs/MAPRIso.jpg)
 
-# Ad Futurum
+# In the future
 
 My biggest takeaway from this project were two-fold:
 
