@@ -31,14 +31,17 @@
 <div id="container">
   <div id="article">
     <h1 id="title">MAPR</h1>
-    <p id="summary"> An autonomous indoor mapping robot for one of my senior capstons</p>
+    <p id="summary"> An autonomous indoor mapping robot for one of my senior capstones</p>
 
   </div>
   <div id="content">
     <p>My school offers a two-part course on building robots. The first part focuses on defining the robot and all of its requirements, while the second focuses on building the system you described. Within a group of four, your task is to make this robot and get it to pass as many of the requirements you set out as possible.</p>
 <p>There were no boundaries to what form or function your robot took, as long as you could build it within your budget. Ideas ranged from an autonomous food dispensary to video game assistance tools. My group opted to go for an indoor mapping and delivery robot. Thus MAPR ( Mapping And Payload Robot) was born.</p>
 <p>
-  <img src="../imgs/MAPR-renders.png" alt="Design Render (Anna Yu)">
+  <figure>
+    <img src="../imgs/MAPR-renders.png" alt="Design Render (Anna Yu)">
+    <figcaption style="text-align: center;">Design Render (Anna Yu)</figcaption>
+  </figure>
 </p>
 <p>Amongst the four of us, I focused on implementing controls and configuring the drivetrain. We opted to use ROS so most of my software work was focused on creating the &ldquo;glue&rdquo; to connect existing ROS packages to our custom components. Before I get into that a little bit about the system.</p>
 <h1 id="parts-list">Parts List</h1>
@@ -73,7 +76,10 @@
 </ul>
 <p>After these, there weren’t many hardware changes, at least towards the drive train. Throughout this process, I had been working on the connective tissue between the ROS packages and our hardware. To that end I made a few software packages.</p>
 <p>
-  <img src="../imgs/MAPR-Electrical.png" alt="Electrical Schematic">
+  <figure>
+    <img src="../imgs/MAPR-Electrical.png" alt="Electrical Schematic">
+    <figcaption style="text-align: center;">Electrical Schematic</figcaption>
+  </figure>
 </p>
 <h2 id="package-1--drivetrain">Package 1 : Drivetrain</h2>
 <p>This package read commands on the /cmd_vel topic, from teleop_twist or navigation, and published target wheel velocities using inverse kinematics. (The system was differential drive btw). This lived on the Khadas which ran our main high-level code.</p>
@@ -84,7 +90,10 @@
 <h1 id="how-did-it-go">How did it go?</h1>
 <p>Poorly. Unfortunately, with time constraints we never managed to resolve a pretty significant issue. Our Lidar was prone to drift which meant our localisation broke down and the robot could not find its way to any destination.  Its recovery behaviour also exacerbated the issue and pushed the map fully out of alignment. The time we lost on motor controller implementation and the encoder debugging ended up preventing us from seeing these issues earlier.</p>
 <p>
-  <img src="../imgs/MAPRIso.jpg" alt="MAPR">
+  <figure>
+    <img src="../imgs/MAPRIso.jpg" alt="MAPR">
+    <figcaption style="text-align: center;">MAPR</figcaption>
+  </figure>
 </p>
 <h1 id="in-the-future">In the future</h1>
 <p>My biggest takeaway from this project were two-fold:</p>

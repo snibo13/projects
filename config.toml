@@ -1,6 +1,6 @@
 baseURL = "https://snibo.me/projects"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Projects"
 theme = "custom"
 publishDir = "docs"
 

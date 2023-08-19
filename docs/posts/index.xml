@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on Projects</title>
     <link>https://snibo.me/projects/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jun 2023 18:25:35 -0700</lastBuildDate><atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jul 2023 14:45:37 -0700</lastBuildDate><atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keyboard Update II - LVGL and Shift Registers</title>
+      <link>https://snibo.me/projects/keyboard-update-ii-lvgl-and-shift-registers/</link>
+      <pubDate>Thu, 06 Jul 2023 14:45:37 -0700</pubDate>
+      
+      <guid>https://snibo.me/projects/keyboard-update-ii-lvgl-and-shift-registers/</guid>
+      <description>Second development log on the keyboard</description>
+    </item>
+    
     <item>
       <title>MAPR</title>
       <link>https://snibo.me/projects/mapr/</link>
       <pubDate>Sun, 18 Jun 2023 18:25:35 -0700</pubDate>
       
       <guid>https://snibo.me/projects/mapr/</guid>
-      <description>An autonomous indoor mapping robot for one of my senior capstons</description>
+      <description>An autonomous indoor mapping robot for one of my senior capstones</description>
     </item>
     
     <item>

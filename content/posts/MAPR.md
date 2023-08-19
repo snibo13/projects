@@ -2,14 +2,14 @@
 title: "MAPR"
 date: 2023-06-18T18:25:35-07:00
 list: true
-summary: An autonomous indoor mapping robot for one of my senior capstons
+summary: An autonomous indoor mapping robot for one of my senior capstones
 draft: false
 ---
 My school offers a two-part course on building robots. The first part focuses on defining the robot and all of its requirements, while the second focuses on building the system you described. Within a group of four, your task is to make this robot and get it to pass as many of the requirements you set out as possible. 
 
 There were no boundaries to what form or function your robot took, as long as you could build it within your budget. Ideas ranged from an autonomous food dispensary to video game assistance tools. My group opted to go for an indoor mapping and delivery robot. Thus MAPR ( Mapping And Payload Robot) was born.
 
-![Design Render (Anna Yu)](../imgs/MAPR-renders.png)
+![Design Render (Anna Yu)](../imgs/MAPR-renders.png "Design Render (Anna Yu)")
 
 Amongst the four of us, I focused on implementing controls and configuring the drivetrain. We opted to use ROS so most of my software work was focused on creating the "glue" to connect existing ROS packages to our custom components. Before I get into that a little bit about the system. 
 
@@ -45,7 +45,7 @@ The next issue was the encoders. These caused our next major change. Our encoder
 
 After these, there weren’t many hardware changes, at least towards the drive train. Throughout this process, I had been working on the connective tissue between the ROS packages and our hardware. To that end I made a few software packages.
 
-![Electrical Schematic](../imgs/MAPR-Electrical.png)
+![Electrical Schematic](../imgs/MAPR-Electrical.png "Electrical Schematic")
 
 ## Package 1 : Drivetrain
 
@@ -63,7 +63,7 @@ The last package was an RQT-based GUI to control the robot's state and set targe
 
 Poorly. Unfortunately, with time constraints we never managed to resolve a pretty significant issue. Our Lidar was prone to drift which meant our localisation broke down and the robot could not find its way to any destination.  Its recovery behaviour also exacerbated the issue and pushed the map fully out of alignment. The time we lost on motor controller implementation and the encoder debugging ended up preventing us from seeing these issues earlier.
 
-![MAPR](../imgs/MAPRIso.jpg)
+![MAPR](../imgs/MAPRIso.jpg "MAPR")
 
 # In the future
 
