@@ -157,9 +157,9 @@ figcaption {
   max-width: 12vw;
 }
 
-.blog-post-card:nth-child(2) {
+/* .blog-post-card:nth-child(2) {
   border-color: var(--jonquil);
-}
+} */
 
 .blog-post-card>p {
   font-size: small;
