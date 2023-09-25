@@ -11,44 +11,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css ">
     <style>
-        .blog-post-card {
-            padding: 10px 20px;
-            margin: 10px 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 3px 3px 8px rgb(238, 238, 238), 3px 3px 8px rgb(238, 238, 238);
-        }
-
-        #first-post {
-            margin: 10vh 0vh;
-            /* height: 20vh; */
-        }
     </style>
 
 </head>
 
-<body>
-    <div id="posts-list">
-        {{range first 1 (where .Site.Pages "Params.list" true)}}
-        <a href="{{.Permalink}}" id="first-post">
+<body style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <svg style="position: fixed; z-index: -1;" class="fixed h-full w-full" preserveAspectRatio="xMidYMid slice"
+        viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <g class="vertical">
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M-70,0 Q80,500 -70,1000"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M80,0 Q200,500 80,1000"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M210,0 Q300,500 210,1000"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M320,0 Q380,500 320,1000"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M410,0 Q440,500 410,1000"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M470,0 Q480,500 470,1000"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M530,0 Q520,500 530,1000"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M590,0 Q560,500 590,1000"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M680,0 Q620,500 680,1000"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M790,0 Q700,500 790,1000"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M920,0 Q800,500 920,1000"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M1070,0 Q920,500 1070,1000"></path>
+            </g>
+            <g class="horizontal">
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,-70 Q500,80 1000,-70"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,80 Q500,200 1000,80"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,210 Q500,300 1000,210"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,320 Q500,380 1000,320"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,410 Q500,440 1000,410"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,470 Q500,480 1000,470"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,530 Q500,520 1000,530"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,590 Q500,560 1000,590"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,680 Q500,620 1000,680"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,790 Q500,700 1000,790"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,920 Q500,800 1000,920"></path>
+                <path fill="none" opacity="0.4" stroke="#a8a29e" stroke-width="1" d="M0,1070 Q500,920 1000,1070"></path>
+            </g>
+        </g>
+    </svg>
+    {{range first 1 (where .Site.Pages "Params.list" true)}}
+    <a href="{{.Permalink}}" id="first-post">
+        <h2> {{.Params.title }}</h2>
+
+        <!-- </div> -->
+        <p> {{ .Params.summary }}</p>
+        {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+        {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+        <h4>{{ .PublishDate.Format $dateFormat }}</h4>
+    </a>
+    {{end}}
+
+    <div id="deck">
+        {{ range after 1 (where .Site.Pages "Params.list" true)}}
+        <a href="{{.Permalink}}" class="blog-post-card">
             <!-- <div style="display: flex; flex-direction: row; justify-content: space-between;"> -->
             <h2> {{.Params.title }}</h2>
-
-            <!-- </div> -->
-            <p> {{ .Params.summary }}</p>
             {{ $dateTime := .PublishDate.Format "2006-01-02" }}
             {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
             <h4>{{ .PublishDate.Format $dateFormat }}</h4>
-        </a>
-        {{end}}
-        {{ range after 1 (where .Site.Pages "Params.list" true)}}
-        <a href="{{.Permalink}}" class="blog-post-card">
-            <div style="display: flex; flex-direction: row; justify-content: space-between;">
-                <h2> {{.Params.title }}</h2>
-                {{ $dateTime := .PublishDate.Format "2006-01-02" }}
-                {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-                <h4>{{ .PublishDate.Format $dateFormat }}</h4>
-            </div>
+            <!-- </div> -->
             <p> {{ .Params.summary }}</p>
         </a>
 
