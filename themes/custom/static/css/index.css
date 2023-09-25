@@ -189,4 +189,20 @@ figcaption {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--bg-1);
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #12263a3a;
+  padding: 8vmin;
+}
+
+#first-post::after {
+  content: "";
+  height: 5px;
+  background-color: var(--accent-blue);
+  border-radius: 2.5px;
+  width: 120%;
+  position: relative;
+  left: -10%;
+  top: 10vmin;
 }
