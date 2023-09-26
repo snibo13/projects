@@ -4,6 +4,7 @@ draft: false
 date: 2022-08-15T22:46:34-05:00
 list: true
 summary: "Using other objects in scene to discern location and adjust confidence"
+color: "#5B8C5A"
 ---
 
 # Problem:

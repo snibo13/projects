@@ -4,6 +4,7 @@ draft: false
 list: true
 date: 2022-08-15T22:46:34-05:00
 summary: "Designing an attachment to convert a traditional wheelchair to a motorized one"
+color: "#CC2936"
 ---
 
 # Problem:

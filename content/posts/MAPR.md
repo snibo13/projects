@@ -3,6 +3,7 @@ title: "MAPR"
 date: 2023-06-18T18:25:35-07:00
 list: true
 summary: An autonomous indoor mapping robot for one of my senior capstones
+color: "#73A580"
 draft: false
 ---
 My school offers a two-part course on building robots. The first part focuses on defining the robot and all of its requirements, while the second focuses on building the system you described. Within a group of four, your task is to make this robot and get it to pass as many of the requirements you set out as possible. 

@@ -4,6 +4,7 @@ date: 2023-06-18T18:25:29-07:00
 draft: false
 list: true
 summary: An vein finding and injection robot created for one of my senior capstones
+color: "#FF0022"
 ---
 
 For my capstone mechatronics class we were given three options: ShipBot, a robot designed to interface with valves and switches on a simulated ship, a stair climbing vacuuming robot and a robot for venipuncture. My group elected to go with the the third option and built Phlebot.

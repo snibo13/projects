@@ -194,6 +194,7 @@ figcaption {
   border: 1px solid;
   border-color: #12263a3a;
   padding: 8vmin;
+  /* backdrop-filter: blur(20px);  */
 }
 
 #first-post::after {

@@ -5,6 +5,7 @@ date: 2021-08-01T21:18:31-06:00
 draft: false
 list: true
 summary: "Two-wheeled line following Arduino robot created for Fundamentals of Engineering"
+color: "#5497A7"
 ---
 
 

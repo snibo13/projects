@@ -3,6 +3,7 @@ title: "Back to the keyboard!"
 date: 2023-06-18T09:42:35-07:00
 draft: false
 list: true
+color: "#C57B57"
 summary: 
 ---
 

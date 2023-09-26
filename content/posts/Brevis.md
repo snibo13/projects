@@ -5,6 +5,7 @@ date: 2021-02-10T22:46:34-05:00
 summary: "A 7-Key macropad with rotary encoder designed from scratch"
 list: true
 draft: false
+color: "#51A3A3"
 ---
 
 ![Finished Macro Keyboard](../imgs/BrevisFull.JPG "The Finished Macro Board")

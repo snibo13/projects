@@ -3,6 +3,7 @@ title: "Eye-Lid Software"
 summary: "Software to track the position of an individuals eyelids"
 list: false
 draft: true
+color: "#F2F230"
 ---
 
 For the past few years, I've been working on and off again with various researchers at Johns Hopkins and other institutions to write software that can accurately track the position of an eyelid.

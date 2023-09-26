@@ -17,7 +17,7 @@
 
 <body style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <div id="dot-grid"
-        style="position: fixed; z-index: -1; top: 0; left: 0;background-image: url('imgs/dotgrid_light_small.jpg'); opacity: 0.05; mix-blend-mode: multiply; height:100vh; width:100vw;">
+        style="position: fixed; z-index: -1; top: 0; left: 0;background-image: url('imgs/dotgrid_light_small.jpg'); opacity: 0.1; mix-blend-mode: multiply; height:100vh; width:100vw;">
 
     </div>
     {{range first 1 (where .Site.Pages "Params.list" true)}}
@@ -34,7 +34,7 @@
 
     <div id="deck">
         {{ range after 1 (where .Site.Pages "Params.list" true)}}
-        <a href="{{.Permalink}}" class="blog-post-card">
+        <a href="{{.Permalink}}" class="blog-post-card" style='border-color: {{.Params.color}}'>
             <!-- <div style="display: flex; flex-direction: row; justify-content: space-between;"> -->
             <h2> {{.Params.title }}</h2>
             {{ $dateTime := .PublishDate.Format "2006-01-02" }}
