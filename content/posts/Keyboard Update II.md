@@ -4,7 +4,7 @@ date: 2023-07-06T14:45:37-07:00
 draft: false
 list: true
 summary: "Second development log on the keyboard"
-color: "#41BBD9"
+color: "#5497A7"
 ---
 
 

@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://snibo.me/projects/keyboard-update-ii-lvgl-and-shift-registers/</loc>
-    <lastmod>2023-07-06T14:45:37-07:00</lastmod>
+    <loc>https://snibo.me/projects/on-richard-feynmann-and-the-build-in-public-movement/</loc>
+    <lastmod>2023-10-01T23:07:39-04:00</lastmod>
   </url><url>
     <loc>https://snibo.me/projects/posts/</loc>
-    <lastmod>2023-07-06T14:45:37-07:00</lastmod>
+    <lastmod>2023-10-01T23:07:39-04:00</lastmod>
   </url><url>
     <loc>https://snibo.me/projects/</loc>
+    <lastmod>2023-10-01T23:07:39-04:00</lastmod>
+  </url><url>
+    <loc>https://snibo.me/projects/keyboard-update-ii-lvgl-and-shift-registers/</loc>
     <lastmod>2023-07-06T14:45:37-07:00</lastmod>
   </url><url>
     <loc>https://snibo.me/projects/mapr/</loc>

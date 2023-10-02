@@ -6,7 +6,16 @@
     <description>Recent content on Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jul 2023 14:45:37 -0700</lastBuildDate><atom:link href="https://snibo.me/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Oct 2023 23:07:39 -0400</lastBuildDate><atom:link href="https://snibo.me/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Richard Feynmann and the &#34;Build in Public&#34; movement</title>
+      <link>https://snibo.me/projects/on-richard-feynmann-and-the-build-in-public-movement/</link>
+      <pubDate>Sun, 01 Oct 2023 23:07:39 -0400</pubDate>
+      
+      <guid>https://snibo.me/projects/on-richard-feynmann-and-the-build-in-public-movement/</guid>
+      <description>Why this blog exists</description>
+    </item>
+    
     <item>
       <title>Keyboard Update II - LVGL and Shift Registers</title>
       <link>https://snibo.me/projects/keyboard-update-ii-lvgl-and-shift-registers/</link>
