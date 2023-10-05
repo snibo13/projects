@@ -1,5 +1,5 @@
 ---
-title: "Lagrange"
+title: "Lagrange Multipliers"
 date: 2023-10-02T00:28:30-04:00
 draft: false
 list: true
