@@ -6,13 +6,22 @@
     <description>Recent content in Posts on Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Oct 2023 23:07:39 -0400</lastBuildDate><atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Oct 2023 00:28:30 -0400</lastBuildDate><atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>On Richard Feynmann and the &#34;Build in Public&#34; movement</title>
-      <link>https://snibo.me/projects/on-richard-feynmann-and-the-build-in-public-movement/</link>
+      <title>Lagrange</title>
+      <link>https://snibo.me/projects/lagrange/</link>
+      <pubDate>Mon, 02 Oct 2023 00:28:30 -0400</pubDate>
+      
+      <guid>https://snibo.me/projects/lagrange/</guid>
+      <description>Lagrange multipliers a la Feynman</description>
+    </item>
+    
+    <item>
+      <title>On Richard Feynman and the &#34;Build in Public&#34; movement</title>
+      <link>https://snibo.me/projects/on-richard-feynman-and-the-build-in-public-movement/</link>
       <pubDate>Sun, 01 Oct 2023 23:07:39 -0400</pubDate>
       
-      <guid>https://snibo.me/projects/on-richard-feynmann-and-the-build-in-public-movement/</guid>
+      <guid>https://snibo.me/projects/on-richard-feynman-and-the-build-in-public-movement/</guid>
       <description>Why this blog exists</description>
     </item>
     

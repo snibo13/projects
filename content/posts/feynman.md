@@ -1,5 +1,5 @@
 ---
-title: "On Richard Feynmann and the \"Build in Public\" movement"
+title: "On Richard Feynman and the \"Build in Public\" movement"
 date: 2023-10-01T23:07:39-04:00
 summary: "Why this blog exists"
 list: true
@@ -14,7 +14,7 @@ This morning I was talking to my roomate about Lagrange multipliers. I've encoun
 3. Fill gaps
 4. Simplify
 
-Step one is pretty self explanatory. When talking about the Feynmann technique people also conflate it with a qoute generally attributed to another Physics Nobel Laureate in Dr. Albert Einstein
+Step one is pretty self explanatory. When talking about the Feynman technique people also conflate it with a qoute generally attributed to another Physics Nobel Laureate in Dr. Albert Einstein
 
 > “If you can't explain it to a six year old, you don't understand it yourself.”
 
