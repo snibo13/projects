@@ -7,7 +7,7 @@ draft: false
 color: "#5B9279"
 ---
 
-This morning I was talking to my roomate about Lagrange multipliers. I've encountered thhem in classes various times, most recently in a machine learning class I am taking. Everytime they were explained I would noid along and understand the gist and how to apply them to the specific application. This question was more general and in explaining it to gim I calrified a few keypoints of my own understanding. This is basically the idea behind the Feynman technique. The eponymous technique was pioneered to Dr. Richard Feynman a nobel laureate who studied physics and taught at Caltech. The idea is composed of 4 main parts:
+This morning I was talking to my roomate about Lagrange multipliers. I've encountered thhem in classes various times, most recently in a machine learning class I am taking. Everytime they were explained I would noid along and understand the gist and how to apply them to the specific application. This question was more general and in explaining it to him I calrified a few keypoints of my own understanding. This is basically the idea behind the Feynman technique. The eponymous technique was pioneered to Dr. Richard Feynman a nobel laureate who studied physics and taught at Caltech. The idea is composed of 4 main parts:
 
 1. Pick a topic
 2. Teach it

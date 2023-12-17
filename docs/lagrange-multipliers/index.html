@@ -20,10 +20,24 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Josefin+Sans:wght@700&family=Noto+Sans:ital,wght@0,800;1,800&family=Poppins:wght@600;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="../css/index.css ">
+  <link rel="stylesheet" href="../css/theme.css ">
 
-</head><body><div id="content">
-<a href="../"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
+</head><body style="background-color: var(--card-bg)"><div id="content">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"
+    integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4"
+    crossorigin="anonymous"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+<a title="home" href="../"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
+
 <div id="container">
   <div id="article">
     <h1 id="title">Lagrange Multipliers</h1>
@@ -37,20 +51,20 @@
 <h3 id="imagine">Imagine</h3>
 <p>You&rsquo;ve just been given $50 to buy lunch for you and your friends. You know what everyone wants but you only have enough to buy 5 full meals, and theres 7 of you. You&rsquo;re goal is to make sure everyone gets something to eat and you&rsquo;re all as full as possible.</p>
 <p>In this context your goal is what you are optimizing (Pretend for the sake of the argument that you can &ldquo;measure&rdquo; how full people are). This could be expressed mathematically. Something like:</p>
-<p>$\sum$ &ldquo;Fullness&rdquo; for each person</p>
-<p>Lets say that fullness is represented by the function $f$ and each person is $p_i$. Then we have:</p>
-<p>$\sum_{i=1}^{7} f(p_i)$</p>
-<p>Lets call this summation $F$ and say it is a function of the items you get .Cool so you just maximize this sum by choosing a bunch of food items $I$. Right?</p>
+<p>$$\sum \text{&ldquo;Fullness&rdquo; for each person} $$</p>
+<p>Lets say that fullness is represented by the function <em>f</em> and each person is $p_{i}$. Then we have:</p>
+<p>$$\sum_{i=1}^{7} f(p_i)$$</p>
+<p>Lets call this summation <em>F</em> and say it is a function of the items you get. Cool so you just maximize this sum by choosing a bunch of food items I. Right?</p>
 <p>In the unsconstrained case yes, you&rsquo;d take a derivative set it equal to zero and find the inflection point. But in this case theres a problem. The best set of items will probably just be a bunch of meals. That would make everyone as full as possible, <em>but</em> it would go over budget.</p>
 <p>In this case the budget is our constraint. We can express it mathematically as something like:</p>
-<p>$\sum_{i \in I} cost(i) \leq $50 $</p>
+<p>$$\sum_{i \in I} cost(i) \leq $50 $$</p>
 <p>In English, the sum of the costs of all the items has to be less that $50. But now we have two equations, and imagine if we had a more complicated constraint or series of constraints. We could end up with quite a few equations.</p>
 <p>Lagrange multipliers let us combine these into a single equation. Let&rsquo;s back up a bit. Our goal is to find the set of items $I$ that maximizes group fullness $F$, mathematically something like this:</p>
-<p>$\underset{I}{\argmax} \quad F(I)$</p>
+<p>$$ \underset{I}{\argmax} \quad F(I)$$</p>
 <p>Notationally this means the same thing as above, find the argument I that maximizes the function F.</p>
 <p>We can incorporate our constraint by adding it to our argmax function. Effectively, our goal is two fold to maximize fullness <em>and</em> to maximize our remaining money. Interestingly enough, this won&rsquo;t change our choice but will inforce the constriant. If we modify our argmax to look like:</p>
-<p>$\underset{I}{\argmax} \quad F(I) + \lambda (50 - C(I))$</p>
-<p>Where C is that summation of costs from before, we implicitly get a solution that prioritises fulfilling our constraint. To solve problems like these we use a similar approach to before. We take the derivative or gradient set it equal to zero and solve from there. The largest distinction is that now, we have an additional $\lambda$ term to solve for. But fear not, we also have an additional equation to solve for this additional variable.</p>
+<p>$$\underset{I}{\argmax} \quad F(I) + \lambda (50 - C(I))$$</p>
+<p>Where C is that summation of costs from before, we implicitly get a solution that prioritises fulfilling our constraint. To solve problems like these we use a similar approach to before. We take the derivative or gradient set it equal to zero and solve from there. The largest distinction is that now, we have an additional $$\lambda$$ term to solve for. But fear not, we also have an additional equation to solve for this additional variable.</p>
 <p>The sequence for solving these problems is usually to find this lamba first as a function of your other variables and substitute it in to the previous equations. Rather than writing out examples here I&rsquo;ll direct you to <a href="https://en.wikipedia.org/wiki/Lagrange_multiplier#Examples">Wikipedia</a> where there are a bunch of good examples with single and multiple constraints.</p>
 <p>The sign of $\lambda$ will depend on your constriaint type and if you are maximizing or minimizing. For example if you constraint is $\leq$ and you are maximizing, you want the $\lambda$ to be negative. Imagine what behaviour you want to penalize and what sign would make your optimization worse when that behviour occurs and you should get an idea of the sign you want.</p>
 <p>Our example with sets is a little weird as well, typically these operate on functions but pretend that I is an number corresponding to a restaurant special and you get the same idea.</p>

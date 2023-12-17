@@ -1,5 +1,9 @@
 {{ define "main" }}
-<a href="../"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
+{{ if or .Params.math .Site.Params.math }}
+{{ partial "math.html" . }}
+{{ end }}
+<a title="home" href="../"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
+
 <div id="container">
   <div id="article">
     <h1 id="title">{{ .Title }}</h1>
