@@ -2,7 +2,7 @@
 title: "Lagrange Multipliers"
 date: 2023-10-02T00:28:30-04:00
 draft: false
-list: false
+list: true
 summary: "Lagrange multipliers a la Feynman"
 color: "#5B9279"
 math: true
@@ -10,13 +10,13 @@ math: true
 
 ## What are Lagrange Multipliers
 
-I mentioned Lagrange multipliers in my last post so I thought it weould be particularly fitting to give them their own explanation post. So here we go.
+I mentioned Lagrange multipliers in my last post, so I thought it would be particularly fitting to give them their own explanation post. So here we go.
 
-In brief. Lagrange multipliers are a way of taking constraints and making them costs, they're taditionally used in constrained optimization problems.
+In brief. Lagrange multipliers are a way of taking constraints and making them costs, they're traditionally used in constrained optimization problems.
 
 ### Imagine
 
-You've just been given $50 to buy lunch for you and your friends. You know what everyone wants but you only have enough to buy 5 full meals, and theres 7 of you. You're goal is to make sure everyone gets something to eat and you're all as full as possible.
+You've just been given $50 to buy lunch for you and your friends. You know what everyone wants, but you only have enough to buy 5 full meals, and there's 7 of you. Your goal is to make sure everyone gets something to eat, and you're all as full as possible.
 
 In this context your goal is what you are optimizing (Pretend for the sake of the argument that you can "measure" how full people are). This could be expressed mathematically. Something like:
 
@@ -26,9 +26,9 @@ Lets say that fullness is represented by the function *f* and each person is $p_
 
 $$\sum_{i=1}^{7} f(p_i)$$ 
 
-Lets call this summation *F* and say it is a function of the items you get. Cool so you just maximize this sum by choosing a bunch of food items I. Right?
+Let's call this summation *F* and say it is a function of the items you get. Cool so you just maximize this sum by choosing a bunch of food items I. Right?
 
-In the unsconstrained case yes, you'd take a derivative set it equal to zero and find the inflection point. But in this case theres a problem. The best set of items will probably just be a bunch of meals. That would make everyone as full as possible, *but* it would go over budget.
+In the unconstrained case yes, you'd take a derivative set it equal to zero and find the inflection point. But in this case there's a problem. The best set of items will probably just be a bunch of meals. That would make everyone as full as possible, *but* it would go over budget.
 
 In this case the budget is our constraint. We can express it mathematically as something like:
 
@@ -42,7 +42,7 @@ $$ \underset{I}{\argmax} \quad F(I)$$
 
 Notationally this means the same thing as above, find the argument I that maximizes the function F. 
 
-We can incorporate our constraint by adding it to our argmax function. Effectively, our goal is two fold to maximize fullness *and* to maximize our remaining money. Interestingly enough, this won't change our choice but will inforce the constriant. If we modify our argmax to look like:
+We can incorporate our constraint by adding it to our argmax function. Effectively, our goal is twofold to maximize fullness *and* to maximize our remaining money. Interestingly enough, this won't change our choice but will enforce the constraint. If we modify our argmax to look like:
 
 $$\underset{I}{\argmax} \quad F(I) + \lambda (50 - C(I))$$
 

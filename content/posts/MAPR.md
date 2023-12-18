@@ -8,11 +8,11 @@ draft: false
 ---
 My school offers a two-part course on building robots. The first part focuses on defining the robot and all of its requirements, while the second focuses on building the system you described. Within a group of four, your task is to make this robot and get it to pass as many of the requirements you set out as possible. 
 
-There were no boundaries to what form or function your robot took, as long as you could build it within your budget. Ideas ranged from an autonomous food dispensary to video game assistance tools. My group opted to go for an indoor mapping and delivery robot. Thus MAPR ( Mapping And Payload Robot) was born.
+There were no boundaries to what form or function your robot took, as long as you could build it within your budget. Ideas ranged from an autonomous food dispensary to video game assistance tools. My group opted to go for an indoor mapping and delivery robot. Thus, MAPR ( Mapping And Payload Robot) was born.
 
 ![Design Render (Anna Yu)](../imgs/MAPR-renders.png "Design Render (Anna Yu)")
 
-Amongst the four of us, I focused on implementing controls and configuring the drivetrain. We opted to use ROS so most of my software work was focused on creating the "glue" to connect existing ROS packages to our custom components. Before I get into that a little bit about the system. 
+Amongst the four of us, I focused on implementing controls and configuring the drivetrain. We opted to use ROS, so most of my software work was focused on creating the "glue" to connect existing ROS packages to our custom components. Before I get into that, a bit about the system. 
 
 # Parts List
 - Khadas Edge 2 (Compute)
@@ -22,7 +22,7 @@ Amongst the four of us, I focused on implementing controls and configuring the d
 - Redline motors and gearboxes
 - Redline incremental encoders (a source of much pain)
 
-Based on our collective experience, our initial intent was to use standard FRC motor controllers. The Talon SRX is fairly common and was more than capable of driving our motors, however, interfacing the system with the rest of our electronics was not as straightforward as we initially thought. Sure if you use a RoboRIO and other FRC components it’s well documented trying to jerry-rig our system to communicate with it was pretty cumbersome. That was the first thing to go.
+Based on our collective experience, our initial intent was to use standard FRC motor controllers. The Talon SRX is fairly common and was more than capable of driving our motors, however, interfacing the system with the rest of our electronics was not as straightforward as we initially thought. Sure if you use a RoboRIO and other FRC components it’s well documented trying to jury-rig our system to communicate with it was pretty cumbersome. That was the first thing to go.
 
 # Parts List 2
 - Khadas Edge 2 (Compute)
@@ -62,7 +62,7 @@ The last package was an RQT-based GUI to control the robot's state and set targe
 
 # How did it go?
 
-Poorly. Unfortunately, with time constraints we never managed to resolve a pretty significant issue. Our Lidar was prone to drift which meant our localisation broke down and the robot could not find its way to any destination.  Its recovery behaviour also exacerbated the issue and pushed the map fully out of alignment. The time we lost on motor controller implementation and the encoder debugging ended up preventing us from seeing these issues earlier.
+Poorly. Unfortunately, with time constraints we never managed to resolve a pretty significant issue. Our Lidar was prone to drift which meant our localization broke down, and the robot could not find its way to any destination.  Its recovery behaviour also exacerbated the issue and pushed the map fully out of alignment. The time we lost on motor controller implementation and the encoder debugging ended up preventing us from seeing these issues earlier.
 
 ![MAPR](../imgs/MAPRIso.jpg "MAPR")
 
@@ -70,10 +70,10 @@ Poorly. Unfortunately, with time constraints we never managed to resolve a prett
 
 My biggest takeaway from this project were two-fold:
 
-You get what you pay for and you pay for what you get.
+You get what you pay for, and you pay for what you get.
 
 
-Getting more robust components would have saved us a lot of time which ended up being a lot more valuable than the budget. We ended up still having a sizeable chunk left at the end and we likely would have had a better system had we splurged on motor controllers and encoders. Things that are fundamental to your system should be prioritised the same way in budgeting.
+Getting more robust components would have saved us a lot of time which ended up being a lot more valuable than the budget. We ended up still having a sizeable chunk left at the end, and we likely would have had a better system had we splurged on motor controllers and encoders. Things that are fundamental to your system should be prioritized the same way in budgeting.
 
 Integrate immediately
 
