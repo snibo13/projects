@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="icon" href="../imgs/Logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Josefin+Sans:wght@700&family=Noto+Sans:ital,wght@0,800;1,800&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Josefin+Sans:wght@700&family=Noto+Sans:ital,wght@0,800;1,800&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/theme.css ">
+
+</head><body style="background-color: var(--card-bg)"><div id="content">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+    integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+    integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8"
+    crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+<a title="home" href="../"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
+
+<div id="container">
+  <div id="article">
+    <h1 id="title">Using Latex in Hugo</h1>
+    <p id="summary"> </p>
+
+  </div>
+  <div id="content">
+    <p>For my last <a href="../brevis/">post</a> I added some equations using a math formatting tool called LaTex. This will <em>NOT</em> be an introduction to LaTex but will explain a bit about how I integrated it into my Hugo site. I was having a bit of trouble getting everything to work, so I figured it would be convenient for other people if this little walkthrough existed.</p>
+<p>This site is built on a custom Hugo theme and hosted on GitHub. I have it connected to a Namecheap domain. Hugo is a framework that simplifies the process of generating static content. You can find out more about the hosting and Hugo <a href="https://pages.github.com/">here</a> and <a href="https://gohugo.io/">here</a> respectively.</p>
+<p>Hugo uses a concept called &ldquo;partials&rdquo;. Partials are components of your site that you can assemble. My site has partials for the header, footer and other meta data. To add support for LaTex I added a new partial called &ldquo;math&rdquo;. The math partial contains CDN links for a tool called KaTex. KaTex is the renderer I am using for generating the HTML associated with the LaTex. The math partial looks like this:</p>
+<pre tabindex="0"><code>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css&#34;
+    integrity=&#34;sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV&#34; crossorigin=&#34;anonymous&#34;&gt;
+
+&lt;!-- The loading of KaTeX is deferred to speed up page rendering --&gt;
+&lt;script defer src=&#34;https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js&#34;
+    integrity=&#34;sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8&#34;
+    crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+&lt;!-- To automatically render math in text elements, include the auto-render extension: --&gt;
+&lt;script defer src=&#34;https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js&#34;
+    integrity=&#34;sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05&#34; crossorigin=&#34;anonymous&#34;
+    onload=&#34;renderMathInElement(document.body);&#34;&gt;&lt;/script&gt;
+</code></pre><p>I copied these straight from the KaTex websites <a href="https://katex.org/docs/browser">instructions</a>. Be sure to check if there is a more up-to-date set of links.</p>
+<p>The second step was to modify the single.html file. Single contains the HTML and partials used for generating a single blog page. To adjust this to work with KaTex I changed the beginning of the file to read</p>
+<pre tabindex="0"><code>{{ define &#34;main&#34; }}
+{{ if or .Params.math .Site.Params.math }}
+{{ partial &#34;math.html&#34; . }}
+{{ end }}
+</code></pre><p>This checks if the set of parameters at the top of each Hugo markdown file includes math. If it does, it includes the CDN we listed in the math partial. The parameters for the Lagrange Multipliers post looks like this:</p>
+<pre tabindex="0"><code>---
+title: &#34;Lagrange Multipliers&#34;
+date: 2023-10-02T00:28:30-04:00
+draft: false
+list: true
+summary: &#34;Lagrange multipliers a la Feynman&#34;
+color: &#34;#5B9279&#34;
+math: true
+---
+</code></pre><p>Keep in mind there are a couple of custom parameters I already have like summary and color, so it&rsquo;s fine if yours looks different.</p>
+<p>To use KaTex you simply write your LaTex like normal. For a block like you would see in a LaTex \begin{equation} you use double dollar signs ($$)</p>
+<pre tabindex="0"><code>$$
+\begin{equation}
+\begin{aligned}
+\frac{\partial \mathbf{u}}{\partial t} +
+(\mathbf{u} \cdot \nabla) \mathbf{u} &amp;= 
+-\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{f}, \\
+\nabla \cdot \mathbf{u} &amp;= 0,
+\end{aligned}
+\end{equation}
+$$
+</code></pre><p>looks like
+$$ \begin{equation}
+\begin{aligned}
+\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} &amp;= -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{f}, \
+\nabla \cdot \mathbf{u} &amp;= 0,
+\end{aligned}
+\end{equation}$$</p>
+<p>The part that took me longer to figure out was how to do inline latex like this \(\mathbb{E}(x) \rightarrow 5\). The documentation says you use <code>\( \)</code> to generate an inline LaTex command. However, the way Hugo renders it means the \ is ignored. This is a common occurence in software where certain characters are not processed the way you would expect without &ldquo;escaping&rdquo; them. Escaping usually just means prepending a single \ before the character so \ goes to \\. Following this to generate inline LaTex you use <code>\\( \\)</code> so we can generate the LaTex from before with <code>\\(\mathbb{E}(x\) \rightarrow 5\\)</code>. That&rsquo;s all there is to it. Hope this was helpful to anyone who stumbled upon it.</p>
+<p>Cheers.</p>
+
+  </div>
+</div>
+
+    </div>
+
+
+</body>
+
+</html>

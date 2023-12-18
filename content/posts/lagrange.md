@@ -4,7 +4,7 @@ date: 2023-10-02T00:28:30-04:00
 draft: false
 list: true
 summary: "Lagrange multipliers a la Feynman"
-color: "#5B9279"
+color: "#CC2936"
 math: true
 ---
 

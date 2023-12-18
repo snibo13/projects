@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:ital,wght@0,400;0,500;1,400&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Space+Mono&display=swap');
 
 :root {
   --dark-white: #efedec;
@@ -29,6 +30,12 @@ html {
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
 
+}
+
+code {
+  font-family: 'Space Mono', monospace;
+  font-size: small;
+  font-weight: 550;
 }
 
 body {

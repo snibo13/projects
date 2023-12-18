@@ -6,7 +6,17 @@
     <description>Recent content on Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Oct 2023 00:28:30 -0400</lastBuildDate><atom:link href="https://snibo.me/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Dec 2023 15:32:36 -0600</lastBuildDate><atom:link href="https://snibo.me/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Latex in Hugo</title>
+      <link>https://snibo.me/projects/using-latex-in-hugo/</link>
+      <pubDate>Mon, 18 Dec 2023 15:32:36 -0600</pubDate>
+      
+      <guid>https://snibo.me/projects/using-latex-in-hugo/</guid>
+      <description>For my last post I added some equations using a math formatting tool called LaTex. This will NOT be an introduction to LaTex but will explain a bit about how I integrated it into my Hugo site. I was having a bit of trouble getting everything to work, so I figured it would be convenient for other people if this little walkthrough existed.
+This site is built on a custom Hugo theme and hosted on GitHub.</description>
+    </item>
+    
     <item>
       <title>Lagrange Multipliers</title>
       <link>https://snibo.me/projects/lagrange-multipliers/</link>
