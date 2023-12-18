@@ -35,7 +35,7 @@ body {
   margin: 0;
   border: 0;
   display: grid;
-  grid-template-columns: auto 45vw auto;
+  grid-template-columns: auto 40vw auto;
   background-color: var(--bg-1);
   color: var(--eerie-black)
 }
@@ -54,11 +54,12 @@ body {
 #content {
   grid-column-start: 2;
   grid-column-end: 3;
-  font-family: 'Noto Sans', sans-serif;
+  /* font-family: 'Noto Sans', sans-serif; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 50px;
+  font-weight: 500;
 
 }
 
