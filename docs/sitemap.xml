@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://snibo.me/projects/posts/</loc>
-    <lastmod>2023-12-18T15:32:36-06:00</lastmod>
+    <lastmod>2023-12-28T02:13:45-06:00</lastmod>
   </url><url>
     <loc>https://snibo.me/projects/</loc>
-    <lastmod>2023-12-18T15:32:36-06:00</lastmod>
+    <lastmod>2023-12-28T02:13:45-06:00</lastmod>
+  </url><url>
+    <loc>https://snibo.me/projects/thinking-open-questions/</loc>
+    <lastmod>2023-12-28T02:13:45-06:00</lastmod>
   </url><url>
     <loc>https://snibo.me/projects/using-latex-in-hugo/</loc>
     <lastmod>2023-12-18T15:32:36-06:00</lastmod>
