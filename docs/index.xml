@@ -4,128 +4,100 @@
     <title>Projects</title>
     <link>https://snibo.me/projects/</link>
     <description>Recent content on Projects</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Dec 2023 02:13:45 -0600</lastBuildDate><atom:link href="https://snibo.me/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Dec 2023 02:13:45 -0600</lastBuildDate>
+    <atom:link href="https://snibo.me/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thinking: Open Questions</title>
       <link>https://snibo.me/projects/thinking-open-questions/</link>
       <pubDate>Thu, 28 Dec 2023 02:13:45 -0600</pubDate>
-      
       <guid>https://snibo.me/projects/thinking-open-questions/</guid>
       <description>Kepping a Research Journal</description>
     </item>
-    
     <item>
       <title>Using Latex in Hugo</title>
       <link>https://snibo.me/projects/using-latex-in-hugo/</link>
       <pubDate>Mon, 18 Dec 2023 15:32:36 -0600</pubDate>
-      
       <guid>https://snibo.me/projects/using-latex-in-hugo/</guid>
-      <description>For my last post I added some equations using a math formatting tool called LaTex. This will NOT be an introduction to LaTex but will explain a bit about how I integrated it into my Hugo site. I was having a bit of trouble getting everything to work, so I figured it would be convenient for other people if this little walkthrough existed.
-This site is built on a custom Hugo theme and hosted on GitHub.</description>
+      <description>For my last post I added some equations using a math formatting tool called LaTex. This will NOT be an introduction to LaTex but will explain a bit about how I integrated it into my Hugo site. I was having a bit of trouble getting everything to work, so I figured it would be convenient for other people if this little walkthrough existed.&#xA;This site is built on a custom Hugo theme and hosted on GitHub.</description>
     </item>
-    
     <item>
       <title>Lagrange Multipliers</title>
       <link>https://snibo.me/projects/lagrange-multipliers/</link>
       <pubDate>Mon, 02 Oct 2023 00:28:30 -0400</pubDate>
-      
       <guid>https://snibo.me/projects/lagrange-multipliers/</guid>
       <description>Lagrange multipliers a la Feynman</description>
     </item>
-    
     <item>
       <title>On Richard Feynman and the &#34;Build in Public&#34; movement</title>
       <link>https://snibo.me/projects/on-richard-feynman-and-the-build-in-public-movement/</link>
       <pubDate>Sun, 01 Oct 2023 23:07:39 -0400</pubDate>
-      
       <guid>https://snibo.me/projects/on-richard-feynman-and-the-build-in-public-movement/</guid>
       <description>Why this blog exists</description>
     </item>
-    
     <item>
       <title>Keyboard Update II - LVGL and Shift Registers</title>
       <link>https://snibo.me/projects/keyboard-update-ii-lvgl-and-shift-registers/</link>
       <pubDate>Thu, 06 Jul 2023 14:45:37 -0700</pubDate>
-      
       <guid>https://snibo.me/projects/keyboard-update-ii-lvgl-and-shift-registers/</guid>
       <description>Second development log on the keyboard</description>
     </item>
-    
     <item>
       <title>MAPR</title>
       <link>https://snibo.me/projects/mapr/</link>
       <pubDate>Sun, 18 Jun 2023 18:25:35 -0700</pubDate>
-      
       <guid>https://snibo.me/projects/mapr/</guid>
       <description>An autonomous indoor mapping robot for one of my senior capstones</description>
     </item>
-    
     <item>
       <title>Phlebot</title>
       <link>https://snibo.me/projects/phlebot/</link>
       <pubDate>Sun, 18 Jun 2023 18:25:29 -0700</pubDate>
-      
       <guid>https://snibo.me/projects/phlebot/</guid>
       <description>An vein finding and injection robot created for one of my senior capstones</description>
     </item>
-    
     <item>
       <title>Back to the keyboard!</title>
       <link>https://snibo.me/projects/back-to-the-keyboard/</link>
       <pubDate>Sun, 18 Jun 2023 09:42:35 -0700</pubDate>
-      
       <guid>https://snibo.me/projects/back-to-the-keyboard/</guid>
-      <description>Back in 2021 I made a seven key macropad with an encoder knob using QMK. The original goal with that project was to serve as a trial case for building a fullsized (or at least 65%) keyboard. Two years later, I&amp;rsquo;m finally getting around to it. I took so long because I was
-The design I&amp;rsquo;m going with is largely inspired by a collection of tweets by Claudio Guglieri.
-Here are a couple: More keyboard renders with touch display and led keycaps.</description>
+      <description>Back in 2021 I made a seven key macropad with an encoder knob using QMK. The original goal with that project was to serve as a trial case for building a fullsized (or at least 65%) keyboard. Two years later, I&amp;rsquo;m finally getting around to it. I took so long because I was&#xA;The design I&amp;rsquo;m going with is largely inspired by a collection of tweets by Claudio Guglieri.&#xA;Here are a couple: More keyboard renders with touch display and led keycaps.</description>
     </item>
-    
     <item>
       <title>Context-Aware Object Recognition</title>
       <link>https://snibo.me/projects/context-aware-object-recognition/</link>
       <pubDate>Mon, 15 Aug 2022 22:46:34 -0500</pubDate>
-      
       <guid>https://snibo.me/projects/context-aware-object-recognition/</guid>
       <description>Using other objects in scene to discern location and adjust confidence</description>
     </item>
-    
     <item>
       <title>Wheelchair Conversion Kit</title>
       <link>https://snibo.me/projects/wheelchair-conversion-kit/</link>
       <pubDate>Mon, 15 Aug 2022 22:46:34 -0500</pubDate>
-      
       <guid>https://snibo.me/projects/wheelchair-conversion-kit/</guid>
       <description>Designing an attachment to convert a traditional wheelchair to a motorized one</description>
     </item>
-    
     <item>
       <title>Facebook AI Research Internship</title>
       <link>https://snibo.me/projects/facebook-ai-research-internship/</link>
       <pubDate>Tue, 31 Aug 2021 18:48:02 -0400</pubDate>
-      
       <guid>https://snibo.me/projects/facebook-ai-research-internship/</guid>
       <description>My work during the 2021 summer with Facebook AI Research and Carnegie Mellon&amp;rsquo;s Robotics Institute</description>
     </item>
-    
     <item>
       <title>Mobot Summary</title>
       <link>https://snibo.me/projects/mobot-summary/</link>
       <pubDate>Sun, 01 Aug 2021 21:18:31 -0600</pubDate>
-      
       <guid>https://snibo.me/projects/mobot-summary/</guid>
       <description>Two-wheeled line following Arduino robot created for Fundamentals of Engineering</description>
     </item>
-    
     <item>
       <title>Brevis</title>
       <link>https://snibo.me/projects/brevis/</link>
       <pubDate>Wed, 10 Feb 2021 22:46:34 -0500</pubDate>
-      
       <guid>https://snibo.me/projects/brevis/</guid>
       <description>A 7-Key macropad with rotary encoder designed from scratch</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:ital,wght@0,400;0,500;1,400&family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 :root {
   --dark-white: #efedec;
@@ -13,10 +14,35 @@
   --greh: #a5a5a7;
 
   --bg-1: #fefefe;
-  --card-bg: #f7f6f6dc;
+  --card-bg: #f7f6f6;
   --bg-2: #eae9e9;
   --accent-blue: #12263A;
   --accent-grey: #6B818C;
+  --grid-red: #5f1a001c;
+  --grid-green: #0068491c;
+  --grid-color: var(--grid-red);
+  --grid-px: 2px;
+}
+
+.jetbrains-mono-reg {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.jetbrains-mono-bold {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-size: 30px 30px;
+  background-image:
+    linear-gradient(to right, var(--grid-color) var(--grid-px), transparent 1px),
+    linear-gradient(to bottom, var(--grid-color) var(--grid-px), transparent 1px);
 }
 
 a {
@@ -28,7 +54,7 @@ a {
 
 html {
   overflow-x: hidden;
-  font-family: 'Inter', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
 
 }
 
@@ -66,7 +92,9 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 50px;
-  font-weight: 500;
+  font-weight: 700;
+  line-height: 35px;
+  /* filter: blur(2px); */
 
 }
 
@@ -121,14 +149,14 @@ p {
   line-height: 1.65;
 }
 
-h2 {
+/* h2 {
   font-family: 'Quicksand', sans-serif;
-}
+} */
 
 figcaption {
   margin-top: 0.5vh;
   /* font-weight: bold; */
-  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
   font-size: 24px;
 }
 
@@ -165,7 +193,7 @@ figcaption {
   /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.192); */
   width: auto;
   max-width: 12vw;
-  background-blend-mode: color-burn;
+  /* background-blend-mode: color-burn; */
 }
 
 /* .blog-post-card:nth-child(2) {
