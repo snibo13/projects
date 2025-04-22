@@ -25,18 +25,22 @@
   --grid-px: 2px;
 }
 
-.jetbrains-mono-reg {
-  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
 
-.jetbrains-mono-bold {
-  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+@media screen and (min-width:600px) {
+  body {
+    margin: 0;
+    border: 0;
+    display: grid;
+    grid-template-columns: auto 45vw auto;
+    background-color: var(--bg-1);
+    color: var(--eerie-black)
+  }
+
+  #content {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
 }
 
 body {
@@ -65,15 +69,6 @@ code {
   font-weight: 550;
 }
 
-body {
-  margin: 0;
-  border: 0;
-  display: grid;
-  grid-template-columns: auto 45vw auto;
-  background-color: var(--bg-1);
-  color: var(--eerie-black)
-}
-
 /* #posts-list {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -86,9 +81,6 @@ body {
 
 
 #content {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  /* font-family: 'Noto Sans', sans-serif; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -118,7 +110,7 @@ body {
 
 img,
 video {
-  width: 35vw;
+  max-width: 35vw;
   height: auto;
   display: block;
   margin-left: auto;
@@ -148,7 +140,7 @@ time {
 
 p {
   font-size: 24px;
-  /* line-height: 1.65; */
+  line-height: 1.65;
 }
 
 /* h2 {
@@ -194,7 +186,7 @@ figcaption {
   flex-direction: column;
   /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.192); */
   width: auto;
-  max-width: 12vw;
+  /* max-width: 12vw; */
   /* background-blend-mode: color-burn; */
 }
 
@@ -272,4 +264,35 @@ blockquote {
 
 #back {
   font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #logo {
+    position: absolute;
+    top: 10px;
+    left: 45vw;
+    width: 15vw;
+    height: auto;
+  }
+
+  #content {
+    width: 80vw;
+    grid-column-start: none;
+    grid-column-end: none;
+  }
+
+  img {
+    max-width: 80vw;
+  }
+
+  .blog-post-card {
+    max-width: none;
+  }
 }
