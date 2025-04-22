@@ -33,17 +33,18 @@
 
 </head><body style="background-color: var(--card-bg)"><div id="content">
 
-<a title="home" href="www.snibo.me"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
-<a title="back" href="javascript:history.back()"><img src="../imgs/back.png" alt="" id="back">&lt; Back</a>
+<a title="home" href="https://www.snibo.me"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
+<a title="back" href="https://projects.snibo.me"><img src="../imgs/back.png" alt="" id="back">
+  &lt; Back</a>
 
-<div id="container">
-  <div id="article">
-    <h1 id="title">Keyboard Update II - LVGL and Shift Registers</h1>
-    <p id="summary"> Second development log on the keyboard</p>
+    <div id="container">
+      <div id="article">
+        <h1 id="title">Keyboard Update II - LVGL and Shift Registers</h1>
+        <p id="summary"> Second development log on the keyboard</p>
 
-  </div>
-  <div id="content">
-    <p>There are three major differences between the keyboard I am working on now and the macro pad I made a few years back. The first is the software. Rather than using QMK, an open-source keyboard development framework, I am writing all the firmware from scratch using the Pi Pico SDK. The other two differences are the use of shift registers and the inclusion of a touch screen. These two differences are a large chunk of the reason I am opting for a ground up approach rather than QMK or ZMK.</p>
+      </div>
+      <div id="content">
+        <p>There are three major differences between the keyboard I am working on now and the macro pad I made a few years back. The first is the software. Rather than using QMK, an open-source keyboard development framework, I am writing all the firmware from scratch using the Pi Pico SDK. The other two differences are the use of shift registers and the inclusion of a touch screen. These two differences are a large chunk of the reason I am opting for a ground up approach rather than QMK or ZMK.</p>
 <h1 id="lvgl">LVGL</h1>
 <p>The first headache of this project was setting up the screen. I haven&rsquo;t managed to find a touch screen with the right aspect ratio yet but for now I am working with a TFT screen from Adafruit. Setting up the drivers was pretty straight forward until it wasn&rsquo;t&rsquo;t. There are several libraries for the Arduino and CircuitPython to work with the driver I am using (ST7735R) but nothing I found was made for the Pi Pico. I more or less cloned the existing logic into C and then spent several days fixing the differences. It boiled down to making sure the sequence of boot commands was called in the correct order. This was a bit of a challenge as the different libraries were generally designed for multiple different drivers and had a lot of code to accommodate changes. Once that was working it was time for the second headache: LVGL.</p>
 <p>LVGL is a graphics library for embedded systems. I opted to use it cause when I Googled libraries for embedded systems it popped up first&hellip;</p>
@@ -70,9 +71,9 @@
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 
-  </div>
-</div>
-
+      </div>
+    </div>
+    
     </div>
 
 

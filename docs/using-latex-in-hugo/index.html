@@ -46,17 +46,18 @@
     integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
 
-<a title="home" href="www.snibo.me"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
-<a title="back" href="javascript:history.back()"><img src="../imgs/back.png" alt="" id="back">&lt; Back</a>
+<a title="home" href="https://www.snibo.me"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
+<a title="back" href="https://projects.snibo.me"><img src="../imgs/back.png" alt="" id="back">
+  &lt; Back</a>
 
-<div id="container">
-  <div id="article">
-    <h1 id="title">Using Latex in Hugo</h1>
-    <p id="summary"> </p>
+    <div id="container">
+      <div id="article">
+        <h1 id="title">Using Latex in Hugo</h1>
+        <p id="summary"> </p>
 
-  </div>
-  <div id="content">
-    <p>For my last <a href="../brevis/">post</a> I added some equations using a math formatting tool called LaTex. This will <em>NOT</em> be an introduction to LaTex but will explain a bit about how I integrated it into my Hugo site. I was having a bit of trouble getting everything to work, so I figured it would be convenient for other people if this little walkthrough existed.</p>
+      </div>
+      <div id="content">
+        <p>For my last <a href="../brevis/">post</a> I added some equations using a math formatting tool called LaTex. This will <em>NOT</em> be an introduction to LaTex but will explain a bit about how I integrated it into my Hugo site. I was having a bit of trouble getting everything to work, so I figured it would be convenient for other people if this little walkthrough existed.</p>
 <p>This site is built on a custom Hugo theme and hosted on GitHub. I have it connected to a Namecheap domain. Hugo is a framework that simplifies the process of generating static content. You can find out more about the hosting and Hugo <a href="https://pages.github.com/">here</a> and <a href="https://gohugo.io/">here</a> respectively.</p>
 <p>Hugo uses a concept called &ldquo;partials&rdquo;. Partials are components of your site that you can assemble. My site has partials for the header, footer and other meta data. To add support for LaTex I added a new partial called &ldquo;math&rdquo;. The math partial contains CDN links for a tool called KaTex. KaTex is the renderer I am using for generating the HTML associated with the LaTex. The math partial looks like this:</p>
 <pre tabindex="0"><code>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css&#34;
@@ -109,9 +110,9 @@ $$ \begin{equation}
 <p>The part that took me longer to figure out was how to do inline latex like this \(\mathbb{E}(x) \rightarrow 5\). The documentation says you use <code>\( \)</code> to generate an inline LaTex command. However, the way Hugo renders it means the \ is ignored. This is a common occurence in software where certain characters are not processed the way you would expect without &ldquo;escaping&rdquo; them. Escaping usually just means prepending a single \ before the character so \ goes to \\. Following this to generate inline LaTex you use <code>\\( \\)</code> so we can generate the LaTex from before with <code>\\(\mathbb{E}(x\) \rightarrow 5\\)</code>. That&rsquo;s all there is to it. Hope this was helpful to anyone who stumbled upon it.</p>
 <p>Cheers.</p>
 
-  </div>
-</div>
-
+      </div>
+    </div>
+    
     </div>
 
 

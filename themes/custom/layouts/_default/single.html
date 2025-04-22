@@ -2,16 +2,17 @@
 {{ if or .Params.math .Site.Params.math }}
 {{ partial "math.html" . }}
 {{ end }}
-<a title="home" href="www.snibo.me"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
-<a title="back" href="javascript:history.back()"><img src="../imgs/back.png" alt="" id="back">< Back</a>
+<a title="home" href="https://www.snibo.me"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
+<a title="back" href="https://projects.snibo.me"><img src="../imgs/back.png" alt="" id="back">
+  < Back</a>
 
-<div id="container">
-  <div id="article">
-    <h1 id="title">{{ .Title }}</h1>
-    {{ partial "meta.html" . }}
-  </div>
-  <div id="content">
-    {{ .Content }}
-  </div>
-</div>
-{{ end }}
+    <div id="container">
+      <div id="article">
+        <h1 id="title">{{ .Title }}</h1>
+        {{ partial "meta.html" . }}
+      </div>
+      <div id="content">
+        {{ .Content }}
+      </div>
+    </div>
+    {{ end }}

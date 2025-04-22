@@ -33,17 +33,18 @@
 
 </head><body style="background-color: var(--card-bg)"><div id="content">
 
-<a title="home" href="www.snibo.me"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
-<a title="back" href="javascript:history.back()"><img src="../imgs/back.png" alt="" id="back">&lt; Back</a>
+<a title="home" href="https://www.snibo.me"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
+<a title="back" href="https://projects.snibo.me"><img src="../imgs/back.png" alt="" id="back">
+  &lt; Back</a>
 
-<div id="container">
-  <div id="article">
-    <h1 id="title">Brevis</h1>
-    <p id="summary"> A 7-Key macropad with rotary encoder designed from scratch</p>
+    <div id="container">
+      <div id="article">
+        <h1 id="title">Brevis</h1>
+        <p id="summary"> A 7-Key macropad with rotary encoder designed from scratch</p>
 
-  </div>
-  <div id="content">
-    <p>
+      </div>
+      <div id="content">
+        <p>
   <figure>
     <img src="../imgs/BrevisFull.JPG" alt="Finished Macro Keyboard">
     <figcaption style="text-align: center;">The Finished Macro Board</figcaption>
@@ -67,9 +68,9 @@
 <p>Armed with the operating principles of a keyboard, I designed Brevis V1.0 the circuit that formed the circuit board you see below. I sourced some Gateron Brown Switches, order the PCB and soldered it up. There was one small problem, the right most column of the keypad would not worked. I double and triple checked the schematic and it all seemed like it should be connected. I hooked up a multimeter and the keys in the column were reading the same voltage as all the other keys. Thanks to some research and a helpful Redittor I found the culprit. The schematic as originally designed had the last column pass through two diodes in series. While my electrical engineering lectures did cover voltage drops across resistors, I had never considered that diodes would have a similar drop, the second column was fine because the drop across the diode was not large enough for the arduino to read the value as low. I refactored the design so that the keys each only passed through one diode and it works like a charm now.</p>
 <!-- raw HTML omitted -->
 
-  </div>
-</div>
-
+      </div>
+    </div>
+    
     </div>
 
 
