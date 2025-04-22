@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:ital,wght@0,400;0,500;1,400&family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
   --dark-white: #efedec;
@@ -18,7 +19,7 @@
   --bg-2: #eae9e9;
   --accent-blue: #12263A;
   --accent-grey: #6B818C;
-  --grid-red: #5f1a001c;
+  --grid-red: #5f19000a;
   --grid-green: #0068491c;
   --grid-color: var(--grid-red);
   --grid-px: 2px;
@@ -54,7 +55,7 @@ a {
 
 html {
   overflow-x: hidden;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Noto Sans', sans-serif;
 
 }
 
@@ -68,7 +69,7 @@ body {
   margin: 0;
   border: 0;
   display: grid;
-  grid-template-columns: auto 40vw auto;
+  grid-template-columns: auto 45vw auto;
   background-color: var(--bg-1);
   color: var(--eerie-black)
 }
@@ -92,7 +93,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 50px;
-  font-weight: 700;
+  /* font-weight: 700; */
   line-height: 35px;
   /* filter: blur(2px); */
 
@@ -132,6 +133,7 @@ video {
 }
 
 #title {
+  font-family: 'Libre Baskerville', serif;
   font-weight: bold;
   font-size: 4vh;
   padding-bottom: 0px;
@@ -145,8 +147,8 @@ time {
 }
 
 p {
-  font-size: 16px;
-  line-height: 1.65;
+  font-size: 24px;
+  /* line-height: 1.65; */
 }
 
 /* h2 {
@@ -255,4 +257,15 @@ figcaption {
   width: 100px;
   height: auto;
   filter: invert(100%);
+}
+
+blockquote {
+  font-size: 1.5vw;
+  font-weight: 400;
+  line-height: 2vw;
+  margin: 0;
+  padding: 0;
+  padding-left: 1vw;
+  border-left: solid var(--accent-blue) 3px;
+  font-style: italic;
 }

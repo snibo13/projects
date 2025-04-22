@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Projects</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Dec 2023 02:13:45 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 22 Apr 2025 10:53:23 -0400</lastBuildDate>
     <atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Levers, Bicycles, and Robots</title>
+      <link>https://snibo.me/projects/levers-bicycles-and-robots/</link>
+      <pubDate>Tue, 22 Apr 2025 10:53:23 -0400</pubDate>
+      <guid>https://snibo.me/projects/levers-bicycles-and-robots/</guid>
+      <description>Give me a place to stand, and a lever long enough, and I will move the world&#xA;&amp;ndash; Archimedes&#xA;I&amp;rsquo;ve spent the better part of my adult life (not much considering I&amp;rsquo;m 23) trying to figure out how to get robots into peoples lives. Sure, there are technically robotic systems in your house thermostats and the like, but the only &amp;ldquo;true&amp;rdquo; robot that has seen large adoption is a little hockey puck that vacuums and/or mops your floors.</description>
+    </item>
     <item>
       <title>Thinking: Open Questions</title>
       <link>https://snibo.me/projects/thinking-open-questions/</link>
