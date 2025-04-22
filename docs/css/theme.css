@@ -269,3 +269,7 @@ blockquote {
   border-left: solid var(--accent-blue) 3px;
   font-style: italic;
 }
+
+#back {
+  font-size: 24px;
+}
