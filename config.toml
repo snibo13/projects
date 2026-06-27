@@ -4,5 +4,6 @@ title = "Projects"
 theme = "custom"
 publishDir = "docs"
 
+
 [permalinks]
   posts = ":title"

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head>
+<html><head><script src="/projects/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=projects/livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,30 +20,40 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Josefin+Sans:wght@700&family=Noto+Sans:ital,wght@0,800;1,800&family=Poppins:wght@600;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="../css/index.css ">
+  <link rel="stylesheet" href="../css/theme.css ">
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TVZ77RXFX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-</head><body><header id="bar">
-  <div id="right">
-    <img src="../imgs/Logo.png">
-  </div>
-</header><div id="content">
-<div id="container">
-  <div id="article">
-    <h1 id="title">Eye-Lid Software</h1>
-    <h2 id = "summary"> Software to track the position of an individuals eyelids</h2>
+  gtag('config', 'G-7TVZ77RXFX');
+</script>
 
-  </div>
-  <div id="content">
-    <p>For the past few years, I&rsquo;ve been working on and off again with various researchers at Johns Hopkins and other institutions to write software that can accurately track the position of an eyelid.</p>
+</head><body style="background-color: var(--card-bg)"><div id="content">
+
+<a title="home" href="http://www.snibo.me"><img src="../imgs/SNB Logo.png" alt="" id="logo"></a>
+<a title="back" href="/"><img src="../imgs/back.png" alt="" id="back">
+  &lt; Back</a>
+
+    <div id="container">
+      <div id="article">
+        <h1 id="title">Eye-Lid Software</h1>
+        <p id="summary"> Software to track the position of an individuals eyelids</p>
+
+      </div>
+      <div id="content">
+        <p>For the past few years, I&rsquo;ve been working on and off again with various researchers at Johns Hopkins and other institutions to write software that can accurately track the position of an eyelid.</p>
 <p>The idea is to put this software to use in</p>
 <p>The first iteration of this software used OpenCV and a tuned edge detection nd filtration program to select just the rim of the eye. From there, the distance between the uppermost and lowermost pixels was computed. Without specific inputs, it isn&rsquo;t possible to scale the pixels to an inch measurement, but it would still function in a way that allowed comparison to select the optimal eye weights.</p>
 <p>The current approach is using a Keypoint detection algorithm based on .</p>
 <p>Additional work could be done to integrate optical flow techniques to get a better estimation of the position of the eye ridge. The system could also be trained with more keypoints along the eye lid.</p>
 <p>A simpler approach could use a coloured dot or mascara to assist the computer in finding the eyelid accurately.</p>
 
-  </div>
-</div>
-
+      </div>
+    </div>
+    
     </div>
 
 
