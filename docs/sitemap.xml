@@ -2,56 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://snibo.me/projects/levers-bicycles-and-robots/</loc>
+    <loc>http://localhost:1313/projects/levers-bicycles-and-robots/</loc>
     <lastmod>2025-04-22T10:53:23-04:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/posts/</loc>
+    <loc>http://localhost:1313/projects/posts/</loc>
     <lastmod>2025-04-22T10:53:23-04:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2025-04-22T10:53:23-04:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/thinking-open-questions/</loc>
+    <loc>http://localhost:1313/projects/thinking-open-questions/</loc>
     <lastmod>2023-12-28T02:13:45-06:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/using-latex-in-hugo/</loc>
+    <loc>http://localhost:1313/projects/using-latex-in-hugo/</loc>
     <lastmod>2023-12-18T15:32:36-06:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/lagrange-multipliers/</loc>
+    <loc>http://localhost:1313/projects/letters/</loc>
+    <lastmod>2023-10-05T20:59:23-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/lagrange-multipliers/</loc>
     <lastmod>2023-10-02T00:28:30-04:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/on-richard-feynman-and-the-build-in-public-movement/</loc>
+    <loc>http://localhost:1313/projects/on-richard-feynman-and-the-build-in-public-movement/</loc>
     <lastmod>2023-10-01T23:07:39-04:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/keyboard-update-ii-lvgl-and-shift-registers/</loc>
+    <loc>http://localhost:1313/projects/keyboard-update-ii-lvgl-and-shift-registers/</loc>
     <lastmod>2023-07-06T14:45:37-07:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/mapr/</loc>
+    <loc>http://localhost:1313/projects/mapr/</loc>
     <lastmod>2023-06-18T18:25:35-07:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/phlebot/</loc>
+    <loc>http://localhost:1313/projects/phlebot/</loc>
     <lastmod>2023-06-18T18:25:29-07:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/back-to-the-keyboard/</loc>
+    <loc>http://localhost:1313/projects/back-to-the-keyboard/</loc>
     <lastmod>2023-06-18T09:42:35-07:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/context-aware-object-recognition/</loc>
+    <loc>http://localhost:1313/projects/context-aware-object-recognition/</loc>
     <lastmod>2022-08-15T22:46:34-05:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/wheelchair-conversion-kit/</loc>
+    <loc>http://localhost:1313/projects/wheelchair-conversion-kit/</loc>
     <lastmod>2022-08-15T22:46:34-05:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/facebook-ai-research-internship/</loc>
+    <loc>http://localhost:1313/projects/facebook-ai-research-internship/</loc>
     <lastmod>2021-08-31T18:48:02-04:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/mobot-summary/</loc>
+    <loc>http://localhost:1313/projects/mobot-summary/</loc>
     <lastmod>2021-08-01T21:18:31-06:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/brevis/</loc>
+    <loc>http://localhost:1313/projects/brevis/</loc>
     <lastmod>2021-02-10T22:46:34-05:00</lastmod>
   </url><url>
-    <loc>https://snibo.me/projects/categories/</loc>
+    <loc>http://localhost:1313/projects/categories/</loc>
   </url><url>
-    <loc>https://snibo.me/projects/tags/</loc>
+    <loc>http://localhost:1313/projects/tags/</loc>
   </url>
 </urlset>

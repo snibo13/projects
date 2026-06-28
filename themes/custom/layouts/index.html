@@ -1,54 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Projects Blogs</title>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/theme.css ">
-    <style>
-    </style>
-
-</head>
-
-<body style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-    <!-- <div id="dot-grid"
-        style="position: fixed; z-index: -1;pointer-events:  none; top: 0; left: 0;background-image: url('imgs/noise.jpg'); opacity: 0.07; mix-blend-mode: multiply; height:100vh; width:100vw;">
-    </div> -->
-    <a href="http://www.snibo.me">
-        <img src="imgs/SNB Logo.png" alt="" id="logo">
-    </a>
-    {{range first 1 (where .Site.Pages "Params.list" true)}}
-    <a href="{{.Permalink}}" id="first-post">
-        <h2> {{.Params.title }}</h2>
-
-        <!-- </div> -->
-        <p> {{ .Params.summary }}</p>
-        {{ $dateTime := .PublishDate.Format "2006-01-02" }}
-        {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-        <h4>{{ .PublishDate.Format $dateFormat }}</h4>
-    </a>
-    {{end}}
-
-    <div id="deck">
-        {{ range after 1 (where .Site.Pages "Params.list" true)}}
-        <a href="{{.Permalink}}" class="blog-post-card" style='border-color: {{.Params.color}}'>
-            <!-- <div style="display: flex; flex-direction: row; justify-content: space-between;"> -->
-            <h2> {{.Params.title }}</h2>
-            {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+{{ define "main" }}
+<h1 id="blog-title">Projects</h1>
+<div class="project-post-list">
+    {{ range $index, $element := (where .Site.Pages "Params.list" true) }}
+    {{ if $index }}<hr class="project-post-divider">{{ end }}
+    <a href="{{ .Permalink }}" class="project-post-item">
+        <div class="project-post-header">
+            <h2 class="project-post-title">{{ .Title }}</h2>
             {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-            <h4>{{ .PublishDate.Format $dateFormat }}</h4>
-            <!-- </div> -->
-            <p> {{ .Params.summary }}</p>
-        </a>
-
-        {{ end }}
-
-    </div>
-</body>
-
-</html>
+            <span class="project-post-date">{{ .PublishDate.Format $dateFormat }}</span>
+        </div>
+        <p class="project-post-summary">{{ .Params.summary }}</p>
+    </a>
+    {{ end }}
+</div>
+{{ end }}

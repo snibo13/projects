@@ -1,110 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Projects</title>
-    <link>https://snibo.me/projects/posts/</link>
-    <description>Recent content in Posts on Projects</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 22 Apr 2025 10:53:23 -0400</lastBuildDate>
-    <atom:link href="https://snibo.me/projects/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Levers, Bicycles, and Robots</title>
-      <link>https://snibo.me/projects/levers-bicycles-and-robots/</link>
-      <pubDate>Tue, 22 Apr 2025 10:53:23 -0400</pubDate>
-      <guid>https://snibo.me/projects/levers-bicycles-and-robots/</guid>
-      <description>Give me a place to stand, and a lever long enough, and I will move the world&#xA;&amp;ndash; Archimedes&#xA;I&amp;rsquo;ve spent the better part of my adult life (not much considering I&amp;rsquo;m 23) trying to figure out how to get robots into peoples lives. Sure, there are technically robotic systems in your house thermostats and the like, but the only &amp;ldquo;true&amp;rdquo; robot that has seen large adoption is a little hockey puck that vacuums and/or mops your floors.</description>
-    </item>
-    <item>
-      <title>Thinking: Open Questions</title>
-      <link>https://snibo.me/projects/thinking-open-questions/</link>
-      <pubDate>Thu, 28 Dec 2023 02:13:45 -0600</pubDate>
-      <guid>https://snibo.me/projects/thinking-open-questions/</guid>
-      <description>Kepping a Research Journal</description>
-    </item>
-    <item>
-      <title>Using Latex in Hugo</title>
-      <link>https://snibo.me/projects/using-latex-in-hugo/</link>
-      <pubDate>Mon, 18 Dec 2023 15:32:36 -0600</pubDate>
-      <guid>https://snibo.me/projects/using-latex-in-hugo/</guid>
-      <description>For my last post I added some equations using a math formatting tool called LaTex. This will NOT be an introduction to LaTex but will explain a bit about how I integrated it into my Hugo site. I was having a bit of trouble getting everything to work, so I figured it would be convenient for other people if this little walkthrough existed.&#xA;This site is built on a custom Hugo theme and hosted on GitHub.</description>
-    </item>
-    <item>
-      <title>Lagrange Multipliers</title>
-      <link>https://snibo.me/projects/lagrange-multipliers/</link>
-      <pubDate>Mon, 02 Oct 2023 00:28:30 -0400</pubDate>
-      <guid>https://snibo.me/projects/lagrange-multipliers/</guid>
-      <description>Lagrange multipliers a la Feynman</description>
-    </item>
-    <item>
-      <title>On Richard Feynman and the &#34;Build in Public&#34; movement</title>
-      <link>https://snibo.me/projects/on-richard-feynman-and-the-build-in-public-movement/</link>
-      <pubDate>Sun, 01 Oct 2023 23:07:39 -0400</pubDate>
-      <guid>https://snibo.me/projects/on-richard-feynman-and-the-build-in-public-movement/</guid>
-      <description>Why this blog exists</description>
-    </item>
-    <item>
-      <title>Keyboard Update II - LVGL and Shift Registers</title>
-      <link>https://snibo.me/projects/keyboard-update-ii-lvgl-and-shift-registers/</link>
-      <pubDate>Thu, 06 Jul 2023 14:45:37 -0700</pubDate>
-      <guid>https://snibo.me/projects/keyboard-update-ii-lvgl-and-shift-registers/</guid>
-      <description>Second development log on the keyboard</description>
-    </item>
-    <item>
-      <title>MAPR</title>
-      <link>https://snibo.me/projects/mapr/</link>
-      <pubDate>Sun, 18 Jun 2023 18:25:35 -0700</pubDate>
-      <guid>https://snibo.me/projects/mapr/</guid>
-      <description>An autonomous indoor mapping robot for one of my senior capstones</description>
-    </item>
-    <item>
-      <title>Phlebot</title>
-      <link>https://snibo.me/projects/phlebot/</link>
-      <pubDate>Sun, 18 Jun 2023 18:25:29 -0700</pubDate>
-      <guid>https://snibo.me/projects/phlebot/</guid>
-      <description>An vein finding and injection robot created for one of my senior capstones</description>
-    </item>
-    <item>
-      <title>Back to the keyboard!</title>
-      <link>https://snibo.me/projects/back-to-the-keyboard/</link>
-      <pubDate>Sun, 18 Jun 2023 09:42:35 -0700</pubDate>
-      <guid>https://snibo.me/projects/back-to-the-keyboard/</guid>
-      <description>Back in 2021 I made a seven key macropad with an encoder knob using QMK. The original goal with that project was to serve as a trial case for building a fullsized (or at least 65%) keyboard. Two years later, I&amp;rsquo;m finally getting around to it. I took so long because I was&#xA;The design I&amp;rsquo;m going with is largely inspired by a collection of tweets by Claudio Guglieri.&#xA;Here are a couple: More keyboard renders with touch display and led keycaps.</description>
-    </item>
-    <item>
-      <title>Context-Aware Object Recognition</title>
-      <link>https://snibo.me/projects/context-aware-object-recognition/</link>
-      <pubDate>Mon, 15 Aug 2022 22:46:34 -0500</pubDate>
-      <guid>https://snibo.me/projects/context-aware-object-recognition/</guid>
-      <description>Using other objects in scene to discern location and adjust confidence</description>
-    </item>
-    <item>
-      <title>Wheelchair Conversion Kit</title>
-      <link>https://snibo.me/projects/wheelchair-conversion-kit/</link>
-      <pubDate>Mon, 15 Aug 2022 22:46:34 -0500</pubDate>
-      <guid>https://snibo.me/projects/wheelchair-conversion-kit/</guid>
-      <description>Designing an attachment to convert a traditional wheelchair to a motorized one</description>
-    </item>
-    <item>
-      <title>Facebook AI Research Internship</title>
-      <link>https://snibo.me/projects/facebook-ai-research-internship/</link>
-      <pubDate>Tue, 31 Aug 2021 18:48:02 -0400</pubDate>
-      <guid>https://snibo.me/projects/facebook-ai-research-internship/</guid>
-      <description>My work during the 2021 summer with Facebook AI Research and Carnegie Mellon&amp;rsquo;s Robotics Institute</description>
-    </item>
-    <item>
-      <title>Mobot Summary</title>
-      <link>https://snibo.me/projects/mobot-summary/</link>
-      <pubDate>Sun, 01 Aug 2021 21:18:31 -0600</pubDate>
-      <guid>https://snibo.me/projects/mobot-summary/</guid>
-      <description>Two-wheeled line following Arduino robot created for Fundamentals of Engineering</description>
-    </item>
-    <item>
-      <title>Brevis</title>
-      <link>https://snibo.me/projects/brevis/</link>
-      <pubDate>Wed, 10 Feb 2021 22:46:34 -0500</pubDate>
-      <guid>https://snibo.me/projects/brevis/</guid>
-      <description>A 7-Key macropad with rotary encoder designed from scratch</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Posts on Projects</title>
+		<link>http://localhost:1313/projects/posts/</link>
+		<description>Recent content in Posts on Projects</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 22 Apr 2025 10:53:23 -0400</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/projects/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Levers, Bicycles, and Robots</title>
+				<link>http://localhost:1313/projects/levers-bicycles-and-robots/</link>
+				<pubDate>Tue, 22 Apr 2025 10:53:23 -0400</pubDate>
+				<guid>http://localhost:1313/projects/levers-bicycles-and-robots/</guid>
+				<description>&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;../imgs/Jobs_Archimedes.png&#34; alt=&#34;Jobs_Archimedes&#34;&gt;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Give me a place to stand, and a lever long enough, and I will move the world&lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash; Archimedes&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve spent the better part of my adult life (not much considering I&amp;rsquo;m 23) trying to figure out how to get robots into peoples lives. Sure, there are technically robotic systems in your house thermostats and the like, but the only &amp;ldquo;true&amp;rdquo; robot that has seen large adoption is a little hockey puck that vacuums and/or mops your floors. Why haven&amp;rsquo;t we seen more robots? Where is R2? Where is Rosey and The Doctor&amp;rsquo;s K9?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Thinking: Open Questions</title>
+				<link>http://localhost:1313/projects/thinking-open-questions/</link>
+				<pubDate>Thu, 28 Dec 2023 02:13:45 -0600</pubDate>
+				<guid>http://localhost:1313/projects/thinking-open-questions/</guid>
+				<description>Kepping a Research Journal</description>
+			</item>
+			<item>
+				<title>Using Latex in Hugo</title>
+				<link>http://localhost:1313/projects/using-latex-in-hugo/</link>
+				<pubDate>Mon, 18 Dec 2023 15:32:36 -0600</pubDate>
+				<guid>http://localhost:1313/projects/using-latex-in-hugo/</guid>
+				<description>&lt;p&gt;For my last &lt;a href=&#34;../brevis/&#34;&gt;post&lt;/a&gt; I added some equations using a math formatting tool called LaTex. This will &lt;em&gt;NOT&lt;/em&gt; be an introduction to LaTex but will explain a bit about how I integrated it into my Hugo site. I was having a bit of trouble getting everything to work, so I figured it would be convenient for other people if this little walkthrough existed.&lt;/p&gt;&#xA;&lt;p&gt;This site is built on a custom Hugo theme and hosted on GitHub. I have it connected to a Namecheap domain. Hugo is a framework that simplifies the process of generating static content. You can find out more about the hosting and Hugo &lt;a href=&#34;https://pages.github.com/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io/&#34;&gt;here&lt;/a&gt; respectively.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Lagrange Multipliers</title>
+				<link>http://localhost:1313/projects/lagrange-multipliers/</link>
+				<pubDate>Mon, 02 Oct 2023 00:28:30 -0400</pubDate>
+				<guid>http://localhost:1313/projects/lagrange-multipliers/</guid>
+				<description>Lagrange multipliers a la Feynman</description>
+			</item>
+			<item>
+				<title>On Richard Feynman and the &#34;Build in Public&#34; movement</title>
+				<link>http://localhost:1313/projects/on-richard-feynman-and-the-build-in-public-movement/</link>
+				<pubDate>Sun, 01 Oct 2023 23:07:39 -0400</pubDate>
+				<guid>http://localhost:1313/projects/on-richard-feynman-and-the-build-in-public-movement/</guid>
+				<description>Why this blog exists</description>
+			</item>
+			<item>
+				<title>Keyboard Update II - LVGL and Shift Registers</title>
+				<link>http://localhost:1313/projects/keyboard-update-ii-lvgl-and-shift-registers/</link>
+				<pubDate>Thu, 06 Jul 2023 14:45:37 -0700</pubDate>
+				<guid>http://localhost:1313/projects/keyboard-update-ii-lvgl-and-shift-registers/</guid>
+				<description>Second development log on the keyboard</description>
+			</item>
+			<item>
+				<title>MAPR</title>
+				<link>http://localhost:1313/projects/mapr/</link>
+				<pubDate>Sun, 18 Jun 2023 18:25:35 -0700</pubDate>
+				<guid>http://localhost:1313/projects/mapr/</guid>
+				<description>An autonomous indoor mapping robot for one of my senior capstones</description>
+			</item>
+			<item>
+				<title>Phlebot</title>
+				<link>http://localhost:1313/projects/phlebot/</link>
+				<pubDate>Sun, 18 Jun 2023 18:25:29 -0700</pubDate>
+				<guid>http://localhost:1313/projects/phlebot/</guid>
+				<description>An vein finding and injection robot created for one of my senior capstones</description>
+			</item>
+			<item>
+				<title>Back to the keyboard!</title>
+				<link>http://localhost:1313/projects/back-to-the-keyboard/</link>
+				<pubDate>Sun, 18 Jun 2023 09:42:35 -0700</pubDate>
+				<guid>http://localhost:1313/projects/back-to-the-keyboard/</guid>
+				<description>&lt;p&gt;Back in 2021 I made a seven key &lt;a href=&#34;../brevis/&#34;&gt;macropad&lt;/a&gt; with an encoder knob using QMK. The original goal with that project was to serve as a trial case for building a fullsized (or at least 65%) keyboard. Two years later, I&amp;rsquo;m finally getting around to it. I took so long because I was&lt;/p&gt;&#xA;&lt;p&gt;The design I&amp;rsquo;m going with is largely inspired by a collection of tweets by &lt;a href=&#34;https://twitter.com/claudioguglieri&#34;&gt;Claudio Guglieri&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here are a couple:&#xA;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;More keyboard renders with touch display and led keycaps. &lt;a href=&#34;https://t.co/lJBygeG31V&#34;&gt;pic.twitter.com/lJBygeG31V&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Context-Aware Object Recognition</title>
+				<link>http://localhost:1313/projects/context-aware-object-recognition/</link>
+				<pubDate>Mon, 15 Aug 2022 22:46:34 -0500</pubDate>
+				<guid>http://localhost:1313/projects/context-aware-object-recognition/</guid>
+				<description>Using other objects in scene to discern location and adjust confidence</description>
+			</item>
+			<item>
+				<title>Wheelchair Conversion Kit</title>
+				<link>http://localhost:1313/projects/wheelchair-conversion-kit/</link>
+				<pubDate>Mon, 15 Aug 2022 22:46:34 -0500</pubDate>
+				<guid>http://localhost:1313/projects/wheelchair-conversion-kit/</guid>
+				<description>Designing an attachment to convert a traditional wheelchair to a motorized one</description>
+			</item>
+			<item>
+				<title>Facebook AI Research Internship</title>
+				<link>http://localhost:1313/projects/facebook-ai-research-internship/</link>
+				<pubDate>Tue, 31 Aug 2021 18:48:02 -0400</pubDate>
+				<guid>http://localhost:1313/projects/facebook-ai-research-internship/</guid>
+				<description>My work during the 2021 summer with Facebook AI Research and Carnegie Mellon&amp;rsquo;s Robotics Institute</description>
+			</item>
+			<item>
+				<title>Mobot Summary</title>
+				<link>http://localhost:1313/projects/mobot-summary/</link>
+				<pubDate>Sun, 01 Aug 2021 21:18:31 -0600</pubDate>
+				<guid>http://localhost:1313/projects/mobot-summary/</guid>
+				<description>Two-wheeled line following Arduino robot created for Fundamentals of Engineering</description>
+			</item>
+			<item>
+				<title>Brevis</title>
+				<link>http://localhost:1313/projects/brevis/</link>
+				<pubDate>Wed, 10 Feb 2021 22:46:34 -0500</pubDate>
+				<guid>http://localhost:1313/projects/brevis/</guid>
+				<description>A 7-Key macropad with rotary encoder designed from scratch</description>
+			</item>
+	</channel>
 </rss>
