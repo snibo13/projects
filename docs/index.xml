@@ -10,15 +10,29 @@
 		
 		
 		
-			<lastBuildDate>Tue, 22 Apr 2025 10:53:23 -0400</lastBuildDate>
+			<lastBuildDate>Fri, 03 Jul 2026 22:52:38 -0700</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>You Gotta Feel It</title>
+				<link>http://localhost:1313/projects/you-gotta-feel-it/</link>
+				<pubDate>Fri, 03 Jul 2026 22:52:38 -0700</pubDate>
+				<guid>http://localhost:1313/projects/you-gotta-feel-it/</guid>
+				<description>&lt;p&gt;Manipulation is fundamentally the exchange of forces between the manipulator and manipulated to change the state. This &amp;ldquo;state&amp;rdquo; could be a variety of things: position, velocity, orientation and additional internal configurations (like opening a book or unscrewing a bottle).&lt;/p&gt;&#xA;&lt;p&gt;In robotics the current belle of the ball for manipulation is the VLA (vision-language-action) policy: image and language conditioned model that generates joint trajectories. And these are popular for good reason, they&amp;rsquo;ve initiated a step function in manipulation performance and offer alternatives to previous brittle, manually engineered task policies.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Levers, Bicycles, and Robots</title>
 				<link>http://localhost:1313/projects/levers-bicycles-and-robots/</link>
 				<pubDate>Tue, 22 Apr 2025 10:53:23 -0400</pubDate>
 				<guid>http://localhost:1313/projects/levers-bicycles-and-robots/</guid>
 				<description>&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;../imgs/Jobs_Archimedes.png&#34; alt=&#34;Jobs_Archimedes&#34;&gt;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Give me a place to stand, and a lever long enough, and I will move the world&lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash; Archimedes&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve spent the better part of my adult life (not much considering I&amp;rsquo;m 23) trying to figure out how to get robots into peoples lives. Sure, there are technically robotic systems in your house thermostats and the like, but the only &amp;ldquo;true&amp;rdquo; robot that has seen large adoption is a little hockey puck that vacuums and/or mops your floors. Why haven&amp;rsquo;t we seen more robots? Where is R2? Where is Rosey and The Doctor&amp;rsquo;s K9?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>DDLabs</title>
+				<link>http://localhost:1313/projects/ddlabs/</link>
+				<pubDate>Tue, 15 Apr 2025 14:49:40 -0400</pubDate>
+				<guid>http://localhost:1313/projects/ddlabs/</guid>
+				<description>&lt;p&gt;I built a 4 quadrant dynamometer (essentially a treadmill for cars) to test the performance of&#xA;DoorDash lab&amp;rsquo;s indevelopment autonomous delivery robots. I worked on electrical design, building the&#xA;platform from first principles to be able to simulate different loads and road conditions for&#xA;development and repair validation. I also developed software and firware to drive the brushless&#xA;motor we used to drive the dyno and to simulate different loads.&#xA;The following year, I focused on developing controls to allow the motor to accurately follow torque&#xA;and velocity profiles. I also built an interface for non-technical personnel to use the dyno for&#xA;testing.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Thinking: Open Questions</title>
@@ -36,9 +50,9 @@
 			</item>
 			<item>
 				<title>Letters and Knowledge</title>
-				<link>http://localhost:1313/projects/letters/</link>
+				<link>http://localhost:1313/projects/letters-and-knowledge/</link>
 				<pubDate>Thu, 05 Oct 2023 20:59:23 -0400</pubDate>
-				<guid>http://localhost:1313/projects/letters/</guid>
+				<guid>http://localhost:1313/projects/letters-and-knowledge/</guid>
 				<description>&lt;p&gt;(While there is definitely somethings to say about letters like grades and degrees and how that correlates to knowledge but I haven&amp;rsquo;t fleshed that out yet, so stay tuned)&lt;/p&gt;&#xA;&lt;p&gt;I ended my Feynman post talking about how I wanted to be a polymath, and I think that idea is something that has informed a lot of decisions I&amp;rsquo;ve made in my life.&lt;/p&gt;&#xA;&lt;p&gt;Let me back up a bit. My freshman year of college, I tried to make my own major. I was, and still am, very interested in robotics. I got in for mechanical engineering and that is what I eventually studied, along with a minor in Robotics, but I wanted to be able to blend the various disciplines involved in robotics into a single course scheduele. Ultimately, this didn&amp;rsquo;t come to fruition but it was a recurring debate with my roommate over the next few years as to whether or not it had merits.&lt;/p&gt;</description>
 			</item>
 			<item>
@@ -56,11 +70,25 @@
 				<description>Why this blog exists</description>
 			</item>
 			<item>
+				<title>Probabilities</title>
+				<link>http://localhost:1313/projects/probabilities/</link>
+				<pubDate>Sat, 19 Aug 2023 12:43:21 -0500</pubDate>
+				<guid>http://localhost:1313/projects/probabilities/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Keyboard Update II - LVGL and Shift Registers</title>
 				<link>http://localhost:1313/projects/keyboard-update-ii-lvgl-and-shift-registers/</link>
 				<pubDate>Thu, 06 Jul 2023 14:45:37 -0700</pubDate>
 				<guid>http://localhost:1313/projects/keyboard-update-ii-lvgl-and-shift-registers/</guid>
 				<description>Second development log on the keyboard</description>
+			</item>
+			<item>
+				<title>RKD</title>
+				<link>http://localhost:1313/projects/rkd/</link>
+				<pubDate>Sun, 18 Jun 2023 18:25:53 -0700</pubDate>
+				<guid>http://localhost:1313/projects/rkd/</guid>
+				<description></description>
 			</item>
 			<item>
 				<title>MAPR</title>
@@ -117,6 +145,13 @@
 				<pubDate>Wed, 10 Feb 2021 22:46:34 -0500</pubDate>
 				<guid>http://localhost:1313/projects/brevis/</guid>
 				<description>A 7-Key macropad with rotary encoder designed from scratch</description>
+			</item>
+			<item>
+				<title>Eye-Lid Software</title>
+				<link>http://localhost:1313/projects/eye-lid-software/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/eye-lid-software/</guid>
+				<description>Software to track the position of an individuals eyelids</description>
 			</item>
 	</channel>
 </rss>

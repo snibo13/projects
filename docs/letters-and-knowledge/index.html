@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head><script src="/projects/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=projects/livereload" data-no-instant defer></script>
-  <title>Back to the keyboard! - Projects</title>
+  <title>Letters and Knowledge - Projects</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -73,30 +73,44 @@
 <a href="/projects/" class="post-back-btn">
     <i class="fa-solid fa-chevron-left"></i> Back
 </a>
-<h1 id="blog-title">Back to the keyboard!</h1>
+<h1 id="blog-title">Letters and Knowledge</h1>
 <p id="summary"> </p>
 
 <article id="blog">
-    <p>Back in 2021 I made a seven key <a href="../brevis/">macropad</a> with an encoder knob using QMK. The original goal with that project was to serve as a trial case for building a fullsized (or at least 65%) keyboard. Two years later, I&rsquo;m finally getting around to it. I took so long because I was</p>
-<p>The design I&rsquo;m going with is largely inspired by a collection of tweets by <a href="https://twitter.com/claudioguglieri">Claudio Guglieri</a>.</p>
-<p>Here are a couple:
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">More keyboard renders with touch display and led keycaps. <a href="https://t.co/lJBygeG31V">pic.twitter.com/lJBygeG31V</a></p>&mdash; Claudio Guglieri (@claudioguglieri) <a href="https://twitter.com/claudioguglieri/status/1663824909087440896?ref_src=twsrc%5Etfw">May 31, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Scroll scroll scroll 🔁 <a href="https://t.co/m7Ccu8LLiT">pic.twitter.com/m7Ccu8LLiT</a></p>&mdash; Claudio Guglieri (@claudioguglieri) <a href="https://twitter.com/claudioguglieri/status/1660903186482495489?ref_src=twsrc%5Etfw">May 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-It&rsquo;s more or less a rethinking of the old touchbar but I think the design is really nice and I&rsquo;m largely doing it as an excercise. I don&rsquo;t think the inclusion of the screen will be a game changer for my productivity or anything but it looks cool and adds some complexity to the project.</p>
-<p>I&rsquo;m also toying with the idea of adding a IR array for gesture detection off the side but that&rsquo;s still uncertain.</p>
-<p>One other source of inspiration is the <a href="https://github.com/peng-zhihui/HelloWord-Keyboard">HelloWord keyboard</a> by Peng Zhihui. Rather than using the traditional matrix scanning for reading key states he uses a collection of shift registers. This means infinite-key rollover and a sampling time as fast as you can flip a clock signal. With my typing speed of 101 words per minute I definitely need a sampling rate in the Megahertz.</p>
-<p>This is what I&rsquo;m currently prototyping with:</p>
-<ul>
-<li>Raspberry Pi Pico (I&rsquo;m considering switching to the Pico W so I can play around with some WiFi stuff or add bluetooth support)</li>
-<li>SN74HC165N: This is an 8 parallel input serial output shift register</li>
-<li>TFT display with ST7735R driver</li>
-</ul>
-<p>The biggest unknown right now is the display. It&rsquo;s proving difficult to find a touch screen display with the aspect ratio that I&rsquo;m looking for but I&rsquo;m still on the hunt. Right now I&rsquo;m working on some firmware to read the inputs from the shift register and an LVGL driver for the st7735r. I opted to go for the Pi Pico SDK rather than using Arduino so I could get a better understanding of embedded system development. You can expect a post about that at some point to.</p>
-<p>That&rsquo;s all for now. Cheers.</p>
+    <p>(While there is definitely somethings to say about letters like grades and degrees and how that correlates to knowledge but I haven&rsquo;t fleshed that out yet, so stay tuned)</p>
+<p>I ended my Feynman post talking about how I wanted to be a polymath, and I think that idea is something that has informed a lot of decisions I&rsquo;ve made in my life.</p>
+<p>Let me back up a bit. My freshman year of college, I tried to make my own major. I was, and still am, very interested in robotics. I got in for mechanical engineering and that is what I eventually studied, along with a minor in Robotics, but I wanted to be able to blend the various disciplines involved in robotics into a single course scheduele. Ultimately, this didn&rsquo;t come to fruition but it was a recurring debate with my roommate over the next few years as to whether or not it had merits.</p>
+<h1 id="h-t-i-m-and-other-letters">H, T, I, M and Other letters</h1>
+<p>There&rsquo;s always the archetype of the T shaped person. Someone who is an expert with deep focus in one field while being somewhat proficient in others (Depending on your typeface this varies). I think this is a wonderful idea but I tried to extend it a little further.</p>
+<p>Imagine going through the alphabet and considering each letter as a representative of both depth and breadth of knowledge. Some don&rsquo;t really make sens (g, j, l, z) but others do serve as interesting models for how one could pursue knowledge.</p>
+<h3 id="a">A</h3>
+<p>I kept this on here just to bookend, but I&rsquo;ll be honest. A doesn&rsquo;t really make sense as a model to me.</p>
+<h3 id="e">E</h3>
+<p>Lots of breadth at different levels. Understand one thing deeply and the others at a more surface level but this continues to adjacent topics at various levels of depth</p>
+<p>&hellip; F is kinda like E</p>
+<h3 id="h">H</h3>
+<p>H is interesting. Two deep pillars with an interconnected bridge. This could be adjacent, or unrelated fields, or it could be breadth with two pillars seperated by a span.</p>
+<h3 id="i">I</h3>
+<p>Breadth at the top, breadth at the bottom.</p>
+<h3 id="l">L</h3>
+<p>Only breadth at the bottom, kindof an expert in one field or niche within a larger wrapper. Imagine someone who can play string instruments like the violin, cello and bass but is atrocious on the keys</p>
+<h3 id="m">M</h3>
+<p>Two pillars and breadth leading to a connection (See W)</p>
+<h3 id="v">V</h3>
+<p>Two disjoint pillars that eventually become the same topic
+Imagine if you drilled really far down into mathematics of physics, eventually they become governed by the same things and their limitations are one and the same</p>
+<h3 id="w">W</h3>
+<p>I image W as three fields that all share some connections. For example, music. Understanding music theory will help you play both the drums and guitar but all of those sets of knowledge are kinda their own thing.</p>
+<h3 id="x">X</h3>
+<p>Like a V but after meeting the two paths diverge again</p>
+<h3 id="y">Y</h3>
+<p>Two things that connect and become a focus. Like math and psychology meeting to become a love of poker</p>
+<h3 id="z">Z</h3>
+<p>Basically the same as I, if you treat left to right as some sort of time axis then maybe the breadth leads to depth which then expands to more breadth. This is honestly pretty consistent with learning anything. You learn something go in depth a bit realise how little you know, learn some breadth and recurse.</p>
+<h1 id="an-architectural-aside">An architectural aside</h1>
+<p>In the time between me starting this blog and posting it, I have been understandably been thinking quite a lot about my own model and what I want it to be. In part because I have been on a bit of an architecture kick as of late, I found the best model lay outside of the alphabet.</p>
+<p>The Parthenon</p>
+<p>Fittingly, created as a temple to the Greek goddess of Wisdom Athena, the Parthenon has stood since the 5th century BC. It&rsquo;s layout is called peripteral which describes a building type where a central room (A Naos of Cella) is sandwiched between two pronaos, kind of antechambers (The Parthenon only has one but I don&rsquo;t think that matters?). That&rsquo;s fine and all but the important part to my model is the Pteron. the Pteron is a surrounding colunnade around the structure. When you look at photos of the Parthenon that is largely what remains standing.</p>
 
 </article>
 

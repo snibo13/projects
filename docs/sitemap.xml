@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/projects/posts/</loc>
+    <lastmod>2026-07-03T22:52:38-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2026-07-03T22:52:38-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/you-gotta-feel-it/</loc>
+    <lastmod>2026-07-03T22:52:38-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/levers-bicycles-and-robots/</loc>
     <lastmod>2025-04-22T10:53:23-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/posts/</loc>
-    <lastmod>2025-04-22T10:53:23-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2025-04-22T10:53:23-04:00</lastmod>
+    <loc>http://localhost:1313/projects/ddlabs/</loc>
+    <lastmod>2025-04-15T14:49:40-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/thinking-open-questions/</loc>
     <lastmod>2023-12-28T02:13:45-06:00</lastmod>
@@ -17,7 +23,7 @@
     <loc>http://localhost:1313/projects/using-latex-in-hugo/</loc>
     <lastmod>2023-12-18T15:32:36-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/letters/</loc>
+    <loc>http://localhost:1313/projects/letters-and-knowledge/</loc>
     <lastmod>2023-10-05T20:59:23-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/lagrange-multipliers/</loc>
@@ -26,8 +32,14 @@
     <loc>http://localhost:1313/projects/on-richard-feynman-and-the-build-in-public-movement/</loc>
     <lastmod>2023-10-01T23:07:39-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/probabilities/</loc>
+    <lastmod>2023-08-19T12:43:21-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/keyboard-update-ii-lvgl-and-shift-registers/</loc>
     <lastmod>2023-07-06T14:45:37-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/rkd/</loc>
+    <lastmod>2023-06-18T18:25:53-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/mapr/</loc>
     <lastmod>2023-06-18T18:25:35-07:00</lastmod>
@@ -54,6 +66,8 @@
     <lastmod>2021-02-10T22:46:34-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/eye-lid-software/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/tags/</loc>
   </url>
