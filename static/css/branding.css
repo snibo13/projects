@@ -325,7 +325,11 @@ p a:hover,
 }
 
 #blog article {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif
+    font-weight: 400;         /* Lower weight to prevent color bleeding */
+    line-height: 1.65;        /* More breathing room between lines */
+    max-width: 65ch;          /* Comfortable reading width */;
+    opacity: 0.65;
 }
 
 #blog img,
