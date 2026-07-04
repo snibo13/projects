@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Faustina:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 :root {
     /* Root Palette Colors - Tree & Wood Tones */
@@ -122,9 +123,11 @@ body {
     background-color: var(--bg-color);
     margin: 0;
     padding: 0;
-    font-family: 'Chivo Mono', monospace;
+    font-family: "Chivo Mono", monospace;
     color: var(--text-color);
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
     position: relative;
 }
 
@@ -197,7 +200,7 @@ p a:hover,
 }
 
 .site-title {
-    font-family: 'Faustina', serif;
+    font-family: "Faustina", serif;
     font-size: 1.25rem;
     color: var(--primary-color);
     font-weight: bold;
@@ -217,7 +220,7 @@ p a:hover,
     gap: 12px;
     text-decoration: none;
     color: var(--text-color);
-    font-family: 'Chivo Mono', monospace;
+    font-family: "Chivo Mono", monospace;
     font-size: 1rem;
     padding: 8px 12px;
     border-radius: 6px;
@@ -285,7 +288,9 @@ p a:hover,
     background-color: var(--divider-color);
     opacity: var(--divider-opacity);
     align-self: stretch;
-    transition: background-color 0.3s ease, opacity 0.3s ease;
+    transition:
+        background-color 0.3s ease,
+        opacity 0.3s ease;
 }
 
 /* Blog Container */
@@ -308,19 +313,19 @@ p a:hover,
 }
 
 #blog {
-    font-family: 'Chivo Mono', monospace;
+    font-family: "Open Sans", sans-serif;
     line-height: 1.6;
 }
 
-#blog>h1,
-#blog>h2,
-#blog>title,
+#blog > h1,
+#blog > h2,
+#blog > title,
 #blog-title {
-    font-family: 'Faustina', serif;
+    font-family: "Faustina", serif;
 }
 
 #blog article {
-    font-family: 'Chivo Mono', monospace;
+    font-family: "Open Sans", sans-serif;
 }
 
 #blog img,
@@ -343,7 +348,7 @@ p a:hover,
 }
 
 #blog code {
-    font-family: 'Chivo Mono', monospace;
+    font-family: "Chivo Mono", monospace;
     background-color: var(--nav-hover-bg);
     padding: 0.2em 0.4em;
     border-radius: 4px;
@@ -412,7 +417,9 @@ p a:hover,
     padding: 20px;
     background-color: var(--bg-color);
     color: var(--text-color);
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
     min-height: 100vh;
 }
 
@@ -421,11 +428,11 @@ p a:hover,
     flex-direction: column;
     gap: 24px;
     margin-bottom: 40px;
-    font-family: 'Chivo Mono', monospace;
+    font-family: "Chivo Mono", monospace;
 }
 
 #left-third h1 {
-    font-family: 'Faustina', serif;
+    font-family: "Faustina", serif;
     font-size: 2.5rem;
     color: var(--primary-color);
     margin: 10px 0 0 0;
@@ -464,7 +471,9 @@ p a:hover,
 
 #icons a {
     color: var(--text-color);
-    transition: color 0.2s ease, transform 0.2s ease;
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
     text-decoration: none;
 }
 
@@ -498,15 +507,18 @@ p a:hover,
     margin-bottom: 20px;
     padding: 24px;
     border-radius: 12px;
-    font-family: 'Chivo Mono', monospace;
+    font-family: "Chivo Mono", monospace;
     color: var(--text-color);
     background-color: var(--card-bg);
-    transition: transform 0.2s ease, background-color 0.3s ease, border-color 0.3s ease;
+    transition:
+        transform 0.2s ease,
+        background-color 0.3s ease,
+        border-color 0.3s ease;
     text-decoration: none;
 }
 
 .work-stone h2.sub-section-text {
-    font-family: 'Faustina', serif;
+    font-family: "Faustina", serif;
     font-size: 1.35rem;
     margin-top: 0;
     margin-bottom: 12px;
@@ -559,7 +571,7 @@ p a:hover,
     opacity: 0;
     transition: opacity 0.2s ease;
     font-size: 0.7rem;
-    font-family: 'Chivo Mono', monospace;
+    font-family: "Chivo Mono", monospace;
 }
 
 .tooltip .tooltiptext::after {
@@ -625,7 +637,9 @@ p a:hover,
     display: block;
     padding: 16px 12px;
     border-radius: 8px;
-    transition: transform 0.2s ease, background-color 0.2s ease;
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
     text-decoration: none;
 }
 
@@ -643,7 +657,7 @@ p a:hover,
 }
 
 .project-post-title {
-    font-family: 'Faustina', serif;
+    font-family: "Faustina", serif;
     font-size: 1.5rem;
     margin: 0;
     color: var(--primary-color);
@@ -652,7 +666,7 @@ p a:hover,
 }
 
 .project-post-date {
-    font-family: 'Chivo Mono', monospace;
+    font-family: "Chivo Mono", monospace;
     font-size: 0.85rem;
     opacity: 0.8;
     white-space: nowrap;
@@ -671,18 +685,22 @@ p a:hover,
     background-color: var(--divider-color);
     opacity: var(--divider-opacity);
     margin: 12px 0;
-    transition: background-color 0.3s ease, opacity 0.3s ease;
+    transition:
+        background-color 0.3s ease,
+        opacity 0.3s ease;
 }
 
 .post-back-btn {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-family: 'Chivo Mono', monospace;
+    font-family: "Chivo Mono", monospace;
     font-size: 0.9rem;
     color: var(--accent-color);
     margin-bottom: 20px;
-    transition: color 0.2s ease, transform 0.2s ease;
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
 }
 
 .post-back-btn:hover {
