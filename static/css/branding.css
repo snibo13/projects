@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Faustina:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
     /* Root Palette Colors - Tree & Wood Tones */
@@ -313,7 +314,7 @@ p a:hover,
 }
 
 #blog {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     line-height: 1.6;
 }
 
@@ -325,7 +326,7 @@ p a:hover,
 }
 
 #blog article {
-    font-family: "Open Sans", sans-serif
+    font-family: 'Inter', sans-serif
     font-weight: 400;         /* Lower weight to prevent color bleeding */
     line-height: 1.65;        /* More breathing room between lines */
     max-width: 65ch;          /* Comfortable reading width */;
