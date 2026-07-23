@@ -314,8 +314,10 @@ p a:hover,
 }
 
 #blog {
-    font-family: "Inter", sans-serif;
-    line-height: 1.6;
+    font-family: "SF Pro Display", sans-serif;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 #blog > h1,
